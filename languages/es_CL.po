@@ -1,0 +1,697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CL\n"
+
+# TAXI_BOOKING_ORIGIN
+msgid "Taxi_booking_origin_label"
+msgstr "Origen"
+
+# TAXI_BOOKING_PICK_CITY
+msgid "Taxi_booking_pick_city_label"
+msgstr "Seleccione Ciudad"
+
+# TAXI_BOOKING_START_FROM
+msgid "Taxi_booking_start_from_label"
+msgstr "Tu vieja empieza desde"
+
+# TAXI_BOOKING_TRIP_TWO_WAY
+msgid "Taxi_booking_trip_two_way_label"
+msgstr "Ida y vuelta"
+
+# TAXI_BOOKING_TRIP_ONE_WAY
+msgid "Taxi_booking_trip_one_way_label"
+msgstr "Solo ida"
+
+# TAXI_BOOKING_DESTINY
+msgid "Taxi_booking_destiny_label"
+msgstr "Destino"
+
+# TAXI_BOOKING_SERVICE_NAME
+msgid "Taxi_booking_service_name_label"
+msgstr "Servicio"
+
+# TAXI_BOOKING_PASSENGERS
+msgid "Taxi_booking_passengers_label"
+msgstr "Pasajeros"
+
+# TAXI_BOOKING_PRICE
+msgid "Taxi_booking_price_label"
+msgstr "Precio"
+
+# TAXI_BOOKING_GO
+msgid "Taxi_booking_go_label"
+msgstr "Ida"
+
+# TAXI_BOOKING_RETURN
+msgid "Taxi_booking_return_label"
+msgstr "Retorno"
+
+# TAXI_BOOKING_DATE_START
+msgid "Taxi_booking_date_go_label"
+msgstr "Fecha de ida"
+
+# TAXI_BOOKING_DATE_RETURN
+msgid "Taxi_booking_date_return_label"
+msgstr "Fecha de retorno"
+
+# TAXI_BOOKING_TIME_GO
+msgid "Taxi_booking_time_go_label"
+msgstr "Hora ida"
+
+# TAXI_BOOKING_TIME_RETURN
+msgid "Taxi_booking_time_return_label"
+msgstr "Hora retorno"
+
+# TAXI_BOOKING_AIRPORT
+msgid "Taxi_booking_airport_label"
+msgstr "Aeropuerto"
+
+# TAXI_BOOKING_HOME
+msgid "Taxi_booking_home_label"
+msgstr "Domicilio"
+
+# TAXI_BOOKING_STREET
+msgid "Taxi_booking_street_label"
+msgstr "Calle"
+
+# TAXI_BOOKING_BUILDING
+msgid "Taxi_booking_building_label"
+msgstr "Número"
+
+# TAXI_BOOKING_DEPTO
+msgid "Taxi_booking_depto_label"
+msgstr "Departamento"
+
+# TAXI_BOOKING_REFERENCE
+msgid "Taxi_booking_reference_label"
+msgstr "Referencia"
+
+# TAXI_BOOKING_PASSENGER_PHONE
+msgid "Taxi_booking_passenger_phone_label"
+msgstr "Teléfono movil"
+
+# TAXI_BOOKING_PASSENGER_EMAIL
+msgid "Taxi_booking_passenger_email_label"
+msgstr "Email"
+
+# TAXI_BOOKING_PASSENGER_FULLNAME
+msgid "Taxi_booking_passenger_fullname_label"
+msgstr "Nombre"
+
+# TAXI_BOOKING_PASSENGER_RUT
+msgid "Taxi_booking_passenger_rut_label"
+msgstr "RUT"
+
+# TAXI_BOOKING_PASSENGER_PASSPORT
+msgid "Taxi_booking_passenger_passport_label"
+msgstr "Pasaporte"
+
+# TAXI_BOOKING_NEXT_BUTTON
+msgid "Taxi_booking_next_button_label"
+msgstr "Siguiente"
+
+# TAXI_BOOKING_PREV_BUTTON
+msgid "Taxi_booking_prev_button_label"
+msgstr "Atrás"
+
+# TAXI_BOOKING_SUBMIT_BUTTON
+msgid "Taxi_booking_submit_button_label"
+msgstr "Reservar"
+
+# COMMENT_BTN_LOADING
+msgid "Comment_btn_loading_label"
+msgstr "Cargando…"
+
+# COMMENT_BTN_LOAD
+msgid "Comment_btn_load_label"
+msgstr "Más comentarios"
+
+# CONTACT_BTN_LOADING
+msgid "Contact_btn_loading_label"
+msgstr "Enviando…"
+
+# CONTACT_BTN_LOAD
+msgid "Contact_btn_load_label"
+msgstr "Enviar Mensaje"
+
+# CONTACT_FORM_FIELD_NAME
+msgid "Contact_form_field_name"
+msgstr "Nombre"
+
+# CONTACT_FORM_FIELD_LASTNAME
+msgid "Contact_form_field_lastname"
+msgstr "Apellido"
+
+# CONTACT_FORM_FIELD_SUBJECT
+msgid "Contact_form_field_subject"
+msgstr "Asunto"
+
+# CONTACT_FORM_FIELD_MESSAGE
+msgid "Contact_form_field_message"
+msgstr "Mensaje"
+
+# QUICK_FIELD_FULLNAME_PLACEHOLDER
+msgid "Quickfield_input_fullname"
+msgstr "Nombre completo"
+
+# QUICK_FIELD_FULLNAME_ERROR_MESSAGE
+msgid "Quickfield_input_fullname_error"
+msgstr "Debe ingresar un nombre válido"
+
+# QUICK_FIELD_ID_NUMBER_PLACEHOLDER
+msgid "Quickfield_input_id_number"
+msgstr "RUT / Cédula"
+
+# QUICK_FIELD_ID_NUMBER_ERROR_MESSAGE
+msgid "Quickfield_input_id_number_error"
+msgstr "Debe ingresar una RUT / Cédula válida"
+
+# QUICK_FIELD_PHONE_PLACEHOLDER
+msgid "Quickfield_input_phone"
+msgstr "Teléfono"
+
+# QUICK_FIELD_PHONE_ERROR_MESSAGE
+msgid "Quickfield_input_phone_error"
+msgstr "Debe ingresar un teléfono válido"
+
+# QUICK_FIELD_EMAIL_PLACEHOLDER
+msgid "Quickfield_input_email"
+msgstr "Email"
+
+# QUICK_FIELD_EMAIL_ERROR_MESSAGE
+msgid "Quickfield_input_email_error"
+msgstr "Debe ingresar un email válido"
+
+# QUICK_FIELD_PASSENGERS_PLACEHOLDER
+msgid "Quickfield_input_passengers"
+msgstr "Cantidad de pasajeros"
+
+# QUICK_FIELD_PASSENGERS_ERROR_MESSAGE
+msgid "Quickfield_input_passengers_error"
+msgstr "Debe ingresar una cantidad válida"
+
+# QUICK_FIELD_HOTEL_ADDRESS_PLACEHOLDER
+msgid "Quickfield_input_hotel_address"
+msgstr "Dirección del hotel"
+
+# QUICK_FIELD_HOTEL_ADDRESS_ERROR_MESSAGE
+msgid "Quickfield_input_hotel_address_error"
+msgstr "Debe ingresar una dirección mas corta"
+
+# CPT_SERVICE_NAME_MENU_LABEL
+msgid "Cpt_service_menu_label"
+msgstr "Servicios"
+
+# CPT_SERVICE_SINGULAR_MENU_LABEL
+msgid "Cpt_service_singular_menu_label"
+msgstr "Servicio"
+
+# CPT_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Cpt_service_add_new_menu_label"
+msgstr "Agregar Servicio"
+
+# CPT_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Cpt_service_not_found_menu_label"
+msgstr "Ningún Servicio encontrado"
+
+# CPT_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_service_all_items_menu_label"
+msgstr "Todos los servicios"
+
+# CPT_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Cpt_service_new_item_menu_label"
+msgstr "Agregar nuevo servicio"
+
+# CPT_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_featured_image_menu_label"
+msgstr "Imagen principal del servicio"
+
+# CPT_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_set_featured_image_menu_label"
+msgstr "Configurar imagen principal del servicio"
+
+# CPT_SERVICE_DESCRIPTION
+msgid "Cpt_service_description"
+msgstr "Sección de servicio"
+
+# CPT_PACKAGE_NAME_MENU_LABEL
+msgid "Cpt_package_menu_label"
+msgstr "Paquetes"
+
+# CPT_PACKAGE_SINGULAR_MENU_LABEL
+msgid "Cpt_package_singular_menu_label"
+msgstr "Paquete"
+
+# CPT_PACKAGE_ADD_NEW_MENU_LABEL
+msgid "Cpt_package_add_new_menu_label"
+msgstr "Agregar paquete"
+
+# CPT_PACKAGE_NOT_FOUND_MENU_LABEL
+msgid "Cpt_package_not_found_menu_label"
+msgstr "Ningún paquete encontrado"
+
+# CPT_PACKAGE_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_package_all_items_menu_label"
+msgstr "Todos los paquetes"
+
+# CPT_PACKAGE_NEW_ITEM_MENU_LABEL
+msgid "Cpt_package_new_item_menu_label"
+msgstr "Agregar nuevo paquete"
+
+# CPT_PACKAGE_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_package_featured_image_menu_label"
+msgstr "Imagen principal del paquete"
+
+# CPT_PACKAGE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_package_set_featured_image_menu_label"
+msgstr "Configurar imagen del paquete"
+
+# CPT_PACKAGE_DESCRIPTION
+msgid "Cpt_package_description"
+msgstr "Sección de paquetes"
+
+# CPT_ABOUT_NAME_MENU_LABEL
+msgid "Cpt_about_menu_label"
+msgstr "Nosotros"
+
+# CPT_ABOUT_SINGULAR_MENU_LABEL
+msgid "Cpt_about_singular_menu_label"
+msgstr "Nosotros"
+
+# CPT_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Cpt_about_add_new_menu_label"
+msgstr "Agregar reseña de nosotros"
+
+# CPT_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Cpt_about_not_found_menu_label"
+msgstr "Ninguna reseña de nosotros encontrada"
+
+# CPT_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_about_all_items_menu_label"
+msgstr "Todas las reseñas de nosotros"
+
+# CPT_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Cpt_about_new_item_menu_label"
+msgstr "Agregar nueva reseña"
+
+# CPT_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_about_featured_image_menu_label"
+msgstr "Imagen principal de Nosotros"
+
+# CPT_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_about_set_featured_image_menu_label"
+msgstr "Configurar imagen de Nosotros"
+
+# CPT_ABOUT_DESCRIPTION
+msgid "Cpt_about_description"
+msgstr "Sección del home"
+
+# CPT_HOME_NAME_MENU_LABEL
+msgid "Cpt_home_menu_label"
+msgstr "Home"
+
+# CPT_HOME_SINGULAR_MENU_LABEL
+msgid "Cpt_home_singular_menu_label"
+msgstr "Home"
+
+# CPT_HOME_ADD_NEW_MENU_LABEL
+msgid "Cpt_home_add_new_menu_label"
+msgstr "Agregar reseña en home"
+
+# CPT_HOME_NOT_FOUND_MENU_LABEL
+msgid "Cpt_home_not_found_menu_label"
+msgstr "Ninguna reseña de home encontrada"
+
+# CPT_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_home_all_items_menu_label"
+msgstr "Ver todas las reseñas de home"
+
+# CPT_HOME_NEW_ITEM_MENU_LABEL
+msgid "Cpt_home_new_item_menu_label"
+msgstr "Agregar nueva reseña en home"
+
+# CPT_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_home_featured_image_menu_label"
+msgstr "Imagen principal de reseña en home"
+
+# CPT_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_home_set_featured_image_menu_label"
+msgstr "Configurar imagen de reseña en home"
+
+# CPT_HOME_DESCRIPTION
+msgid "Cpt_home_description"
+msgstr "Sección home"
+
+# CPT_SERVICE_CONTENT_NAME_MENU_LABEL
+msgid "Cpt_service_content_menu_label"
+msgstr "Servicio"
+
+# CPT_SERVICE_CONTENT_SINGULAR_MENU_LABEL
+msgid "Cpt_service_content_singular_menu_label"
+msgstr "Servicio"
+
+# CPT_SERVICE_CONTENT_ADD_NEW_MENU_LABEL
+msgid "Cpt_service_content_add_new_menu_label"
+msgstr "Agregar servicio"
+
+# CPT_SERVICE_CONTENT_NOT_FOUND_MENU_LABEL
+msgid "Cpt_service_content_not_found_menu_label"
+msgstr "No se ha encontrado ninguna servicio"
+
+# CPT_SERVICE_CONTENT_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_service_content_all_items_menu_label"
+msgstr "Ver todos los servicios"
+
+# CPT_SERVICE_CONTENT_NEW_ITEM_MENU_LABEL
+msgid "Cpt_service_content_new_item_menu_label"
+msgstr "Agregar nuevo servicio"
+
+# CPT_SERVICE_CONTENT_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_content_featured_image_menu_label"
+msgstr "Image principal del servicio"
+
+# CPT_SERVICE_CONTENT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_content_set_featured_image_menu_label"
+msgstr "Configurar imagen principal del servicio"
+
+# CPT_SERVICE_CONTENT_DESCRIPTION
+msgid "Cpt_service_content_description"
+msgstr "Sección de servicio para ingresar todos los servicios de la empresa"
+
+# CUSTOM_CATEGORY_NAME
+msgid "Category_name"
+msgstr "Categoria"
+
+# BANNER_SERVICE_NAME_MENU_LABEL
+msgid "Banner_service_menu_label"
+msgstr "Banner para Servicios"
+
+# BANNER_SERVICE_SINGULAR_MENU_LABEL
+msgid "Banner_service_singular_menu_label"
+msgstr "Banner para Servicio"
+
+# BANNER_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Banner_service_add_new_menu_label"
+msgstr "Agregar banner para servicio"
+
+# BANNER_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Banner_service_not_found_menu_label"
+msgstr "Ningún banner de servicio encontrado"
+
+# BANNER_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Banner_service_all_items_menu_label"
+msgstr "Ver todos los banners de servicios"
+
+# BANNER_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Banner_service_new_item_menu_label"
+msgstr "Agregar nuevo banner de servicio"
+
+# BANNER_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_service_featured_image_menu_label"
+msgstr "Banner del servicio"
+
+# BANNER_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_service_set_featured_image_menu_label"
+msgstr "Configurar banner del servicio"
+
+# BANNER_SERVICE_DESCRIPTION
+msgid "Banner_service_description"
+msgstr "Banners para servicios"
+
+# BANNER_ABOUT_NAME_MENU_LABEL
+msgid "Banner_about_menu_label"
+msgstr "Banners para Nosotros"
+
+# BANNER_ABOUT_SINGULAR_MENU_LABEL
+msgid "Banner_about_singular_menu_label"
+msgstr "Banners para Nosotros"
+
+# BANNER_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Banner_about_add_new_menu_label"
+msgstr "Agregar nuevo banner para nosotros"
+
+# BANNER_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Banner_about_not_found_menu_label"
+msgstr "Ningún banner de nosotros encontrado"
+
+# BANNER_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Banner_about_all_items_menu_label"
+msgstr "Todos los banners de nosotros"
+
+# BANNER_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Banner_about_new_item_menu_label"
+msgstr "Agregar nuevo banner para nosotros"
+
+# BANNER_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_about_featured_image_menu_label"
+msgstr "Banner para nosotros"
+
+# BANNER_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_about_set_featured_image_menu_label"
+msgstr "Configurar banner para nosotros"
+
+# BANNER_ABOUT_DESCRIPTION
+msgid "Banner_about_description"
+msgstr "Banners para nosotros"
+
+# BANNER_HOME_NAME_MENU_LABEL
+msgid "Banner_home_menu_label"
+msgstr "Banners para home"
+
+# BANNER_HOME_SINGULAR_MENU_LABEL
+msgid "Banner_home_singular_menu_label"
+msgstr "Banners para home"
+
+# BANNER_HOME_ADD_NEW_MENU_LABEL
+msgid "Banner_home_add_new_menu_label"
+msgstr "Agregar banner para home"
+
+# BANNER_HOME_NOT_FOUND_MENU_LABEL
+msgid "Banner_home_not_found_menu_label"
+msgstr "Ningún banner para home encontrado"
+
+# BANNER_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Banner_home_all_items_menu_label"
+msgstr "Ver todos los banners de home"
+
+# BANNER_HOME_NEW_ITEM_MENU_LABEL
+msgid "Banner_home_new_item_menu_label"
+msgstr "Agregar nuevo banner para home"
+
+# BANNER_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_home_featured_image_menu_label"
+msgstr "Banner para home"
+
+# BANNER_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_home_set_featured_image_menu_label"
+msgstr "Configurar banner para home"
+
+# BANNER_HOME_DESCRIPTION
+msgid "Banner_home_description"
+msgstr "Banners para home"
+
+# METABOX_TRIP_PRICE_TITLE
+msgid "Metabox_trip_price_title"
+msgstr "Precio del paquete"
+
+# METABOX_TRIP_PRICE
+msgid "Metabox_trip_price"
+msgstr "Precio"
+
+# METABOX_SCHEDULE_TRIP
+msgid "Metabox_schedule_trip"
+msgstr "Duración del tour"
+
+# METABOX_TIME_DEPARTURE
+msgid "Metabox_time_departure"
+msgstr "Hora de partida"
+
+# METABOX_TIME_RETURN
+msgid "Metabox_time_return"
+msgstr "Hora de regreso"
+
+# METABOX_DEPARTURE_PLACE_TITLE
+msgid "Metabox_departure_place_title"
+msgstr "Puntos de encuentro"
+
+# METABOX_DEPARTURE_PLACE
+msgid "Metabox_departure_place"
+msgstr "Punto de encuentro"
+
+# METABOX_DEPARTURE_PLACE_DESCRIPTION
+msgid "Metabox_departure_place_description"
+msgstr "Lugar donde se reunirán las personas que irán al tour"
+
+# METABOX_DEPARTURE_PLACE_CLONE_BTN
+msgid "Metabox_departure_place_clone_btn"
+msgstr "Agregar nuevo punto de encuentro"
+
+# METABOX_TRIP_MAP_TITLE
+msgid "Metabox_trip_map_title"
+msgstr "Mapa del tour"
+
+# METABOX_TRIP_MAP_ROUTE_NAME
+msgid "Metabox_trip_map_route_name"
+msgstr "Agregar dirección del tour"
+
+# METABOX_TRIP_MAP
+msgid "Metabox_trip_map"
+msgstr "Mapa del paquete"
+
+# METABOX_TRIP_GALLERY_TITLE
+msgid "Metabox_trip_gallery_title"
+msgstr "Momentos del tour"
+
+# METABOX_TRIP_GALLERY
+msgid "Metabox_trip_gallery"
+msgstr "Galleria del tour"
+
+# CHECKER_IMAGE_SIZE_ERROR_MESSAGE
+msgid "Checker_image_size_error_message"
+msgstr "Tu imagen es muy pequeña debería ser $width de ancho y $height de alto, pero es $currentWidth x $currentHeight"
+
+# EMAIL_SENDING_ERROR_MESSAGE
+msgid "Checker_sending_email_error_message"
+msgstr "Ocurrió algún problema al intentar enviar el mensaje"
+
+# CAR_BOOKING_LIST_TITLE
+msgid "Page_menu_car_booking_page_title"
+msgstr "Reservas de Traslados"
+
+# CAR_BOOKING_LIST_MENU_NAME
+msgid "Page_menu_car_booking_name"
+msgstr "Traslados"
+
+# CLASS_RESERVATION_UNDEFINED_ERROR_MESSAGE
+msgid "Class_reservation_undefined_error_message"
+msgstr "Error, clase no definida"
+
+# RESERVATION_NONCE_UNDEFINED_ERROR_MESSAGE
+msgid "Reservation_nonce_undefined_error_message"
+msgstr "Error, solicitud inválida"
+
+# RESERVATION_NONCE_INCORRECT_ERROR_MESSAGE
+msgid "Reservation_nonce_incorrect_error_message"
+msgstr "Error, solicitud inválida"
+
+# RESERVATION_SOME_FIELDS_MISSING_ERROR_MESSAGE
+msgid "Reservation_some_fields_missing_error_message"
+msgstr "Error, algunos faltan campos requeridos"
+
+# RESERVATION_CUSTOMER_ID_ERROR_MESSAGE
+msgid "Reservation_customer_id_error_message"
+msgstr "Error, el RUT / Cédula debe ser números"
+
+# RESERVATION_PASSENGERS_ERROR_MESSAGE
+msgid "Reservation_passengers_error_message"
+msgstr "Error, debe ingresar la cantidad de pasajeros"
+
+# RESERVATION_CUSTOMER_EMAIL_ERROR_MESSAGE
+msgid "Reservation_customer_email_error_message"
+msgstr "Debe ingresar un email válido"
+
+# RESERVATION_PACKAGE_ID_ERROR_MESSAGE
+msgid "Reservation_package_id_error_message"
+msgstr "Error, paquete no definido"
+
+# RESERVATION_PACKAGE_NOT_FOUND_ERROR_MESSAGE
+msgid "Reservation_package_not_found_error_message"
+msgstr "Error, paquete no definido"
+
+# RESERVATION_FAILS_ERROR_MESSAGE
+msgid "Reservation_fails_error_message"
+msgstr "Ocurrió un error al intentar hacer la reserva"
+
+# RESERVATION_SUBJECT_EMAIL_ADMIN
+msgid "Reservation_subject_email_admin"
+msgstr "Nueva reservación"
+
+# RESERVATION_SUBJECT_EMAIL_CUSTOMER
+msgid "Reservation_subject_email_customer"
+msgstr "Antours - Reservación"
+
+# MENU_ITEM_ABOUT_US
+msgid "Menu_item_about_us"
+msgstr "Nosotros"
+
+# MENU_ITEM_TOURS
+msgid "Menu_item_tours"
+msgstr "Paquetes"
+
+# MENU_ITEM_SERVICES
+msgid "Menu_item_services"
+msgstr "Servicios"
+
+# MENU_ITEM_CONTACT
+msgid "Menu_item_contact"
+msgstr "Contacto"
+
+# EN_CUSTOM_CATEGORY_TOURS_DESC
+msgid "Custom_category_english_tours_description"
+msgstr "Tours"
+
+# EN_CUSTOM_CATEGORY_PEOPLE_DESC
+msgid "Custom_category_english_people_description"
+msgstr "People"
+
+# EN_CUSTOM_CATEGORY_COMPANIES_DESC
+msgid "Custom_category_english_companies_description"
+msgstr "Companies"
+
+# EN_CUSTOM_CATEGORY_PRIVATES_DESC
+msgid "Custom_category_english_privates_description"
+msgstr "Privates"
+
+# EN_CUSTOM_CATEGORY_TRANSFERS_DESC
+msgid "Custom_category_english_transfers_description"
+msgstr "Translations"
+
+# ES_CUSTOM_CATEGORY_PAQUETES_DESC
+msgid "Custom_category_spanish_paquetes_description"
+msgstr "Paquetes"
+
+# ES_CUSTOM_CATEGORY_PERSONAS_DESC
+msgid "Custom_category_spanish_personas_description"
+msgstr "Personas"
+
+# ES_CUSTOM_CATEGORY_COMPANIAS_DESC
+msgid "Custom_category_spanish_companias_description"
+msgstr "Empresas"
+
+# ES_CUSTOM_CATEGORY_PRIVADOS_DESC
+msgid "Custom_category_spanish_privados_description"
+msgstr "Privados"
+
+# ES_CUSTOM_CATEGORY_TRASLADOS_DESC
+msgid "Custom_category_spanish_traslados_description"
+msgstr "Traslados"
+
+# PT_CUSTOM_CATEGORY_PASSEIOS_DESC
+msgid "Custom_category_portuguese_passeios_description"
+msgstr "Passeios"
+
+# PT_CUSTOM_CATEGORY_PESSOAS_DESC
+msgid "Custom_category_portuguese_pessoas_description"
+msgstr "Pessoas"
+
+# PT_CUSTOM_CATEGORY_EMPRESAS_DESC
+msgid "Custom_category_portuguese_empresas_description"
+msgstr "Empresas"
+
+# PT_CUSTOM_CATEGORY_EXCLUSIVO_DESC
+msgid "Custom_category_portuguese_exclusivo_description"
+msgstr "Exclusivo"
+
+# PT_CUSTOM_CATEGORY_TRANSFERENCIAS_DESC
+msgid "Custom_category_portuguese_transferencias_description"
+msgstr "Transferências"

@@ -1,0 +1,706 @@
+.antours-app {
+  font-family: 'Open Sans', sans-serif;
+  color: #ababad;
+  /*Menu Styles*/
+  /* Footer Styles */
+  /* Title Container */
+  /* Package Item */
+  /* Home Container */
+  /* Package Container */
+  /* Paginate */
+  /* Service Container */ }
+  .antours-app .product-form-quick {
+    position: relative; }
+  .antours-app .product-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-color: #d59440;
+    border-width: 1px;
+    border-style: solid;
+    border-top-width: 4px;
+    opacity: 0;
+    transform: scale(1.5);
+    visibility: hidden;
+    transition: opacity .5s, transform .3s, visibility .3s; }
+  .antours-app .single-product-form {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    border-color: #d59440;
+    border-width: 1px;
+    border-style: solid;
+    border-top-width: 4px; }
+    .antours-app .single-product-form .single-field-container {
+      width: 100%;
+      display: block;
+      border-bottom: 1px solid #d59440;
+      background: #FFF; }
+      .antours-app .single-product-form .single-field-container input, .antours-app .single-product-form .single-field-container textarea {
+        width: inherit;
+        border: none;
+        border-bottom: 1px solid #d59440;
+        padding: 6px 10px;
+        border-width: 0; }
+        .antours-app .single-product-form .single-field-container input:focus, .antours-app .single-product-form .single-field-container textarea:focus {
+          outline: none; }
+        .antours-app .single-product-form .single-field-container input::-webkit-input-placeholder, .antours-app .single-product-form .single-field-container input::-moz-placeholder, .antours-app .single-product-form .single-field-container input:-ms-input-placeholder, .antours-app .single-product-form .single-field-container input:-moz-placeholder, .antours-app .single-product-form .single-field-container textarea::-webkit-input-placeholder, .antours-app .single-product-form .single-field-container textarea::-moz-placeholder, .antours-app .single-product-form .single-field-container textarea:-ms-input-placeholder, .antours-app .single-product-form .single-field-container textarea:-moz-placeholder {
+          color: green; }
+        .antours-app .single-product-form .single-field-container input:-moz-placeholder, .antours-app .single-product-form .single-field-container textarea:-moz-placeholder {
+          color: #ccccce;
+          opacity: 1; }
+        .antours-app .single-product-form .single-field-container input::-moz-placeholder, .antours-app .single-product-form .single-field-container textarea::-moz-placeholder {
+          color: #ccccce;
+          opacity: 1; }
+        .antours-app .single-product-form .single-field-container input:-ms-input-placeholder, .antours-app .single-product-form .single-field-container textarea:-ms-input-placeholder {
+          color: #ccccce; }
+        .antours-app .single-product-form .single-field-container input::-webkit-input-placeholder, .antours-app .single-product-form .single-field-container textarea::-webkit-input-placeholder {
+          color: #ccccce; }
+      .antours-app .single-product-form .single-field-container .simple-package-field {
+        width: inherit;
+        border: none;
+        padding: 6px 10px; }
+        .antours-app .single-product-form .single-field-container .simple-package-field label {
+          margin-bottom: 0; }
+      .antours-app .single-product-form .single-field-container .simple-form-field.is-invalid + .invalid-feedback {
+        display: block;
+        margin-top: 0;
+        background-color: #FFF;
+        padding: 0px 10px; }
+    .antours-app .single-product-form .form-progress-layout {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      background-color: rgba(211, 147, 64, 0.6);
+      display: none; }
+      .antours-app .single-product-form .form-progress-layout .progress-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: auto;
+        text-align: center;
+        text-shadow: 0px 2px 10px sienna;
+        color: #FFF; }
+    .antours-app .single-product-form.running .form-progress-layout {
+      display: block; }
+  .antours-app .reservation-container {
+    background: #d59440; }
+    .antours-app .reservation-container .reservation-wrapper {
+      padding: 60px 0px; }
+      .antours-app .reservation-container .reservation-wrapper .reservation-title * {
+        font-size: 30px;
+        color: #FFF;
+        font-weight: 300;
+        word-spacing: 3px;
+        margin-bottom: 10px; }
+      .antours-app .reservation-container .reservation-wrapper .form-container {
+        max-width: 800px;
+        width: 100%;
+        background: #FFF;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        min-height: 0px;
+        transition: min-height .5s;
+        box-shadow: 0px 4px 49px -15px #000; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .step {
+          padding: 30px 40px 20px 40px;
+          max-height: 300px;
+          overflow: auto; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .btn {
+          outline: none; }
+          .antours-app .reservation-container .reservation-wrapper .form-container .btn:active, .antours-app .reservation-container .reservation-wrapper .form-container .btn:focus {
+            outline: none;
+            box-shadow: none; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .btn-next-step {
+          background: #ffb454;
+          border-color: #ffb454;
+          border-radius: 0px;
+          cursor: pointer;
+          font-weight: bold; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .steps {
+          position: absolute;
+          transform: translateX(-100%);
+          transition: transform .5s;
+          top: 0;
+          width: 100%; }
+          .antours-app .reservation-container .reservation-wrapper .form-container .steps.current {
+            display: block;
+            position: relative;
+            transform: translateX(0%); }
+            .antours-app .reservation-container .reservation-wrapper .form-container .steps.current ~ .steps {
+              transform: translateX(100%); }
+            .antours-app .reservation-container .reservation-wrapper .form-container .steps.current .title-table {
+              text-align: center;
+              background: #d49348;
+              color: #FFF; }
+            .antours-app .reservation-container .reservation-wrapper .form-container .steps.current .services_container .container-loading {
+              text-align: center; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .col-label {
+          min-width: 80px;
+          max-width: 90px; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .form-control-border {
+          border-color: #d39340; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .container-field {
+          border: 1px solid #f2f0f0;
+          padding: 0px 20px 0 10px; }
+        .antours-app .reservation-container .reservation-wrapper .form-container .reservation-field {
+          border-color: transparent;
+          border-style: solid;
+          border-width: 0;
+          border-radius: 0; }
+          .antours-app .reservation-container .reservation-wrapper .form-container .reservation-field + .field-icon {
+            font-size: 20px;
+            color: #d59440; }
+  .antours-app .margin-v-separator {
+    margin: 35px auto; }
+  .antours-app .vertical-separator {
+    margin-top: 10px; }
+  .antours-app .margin-bottom {
+    margin-bottom: 30px; }
+  .antours-app .center-block {
+    margin-left: auto;
+    margin-right: auto; }
+  .antours-app .link-telephone, .antours-app .link-email {
+    color: #ababad; }
+  .antours-app .form-control-submit {
+    outline: none; }
+    .antours-app .form-control-submit:active, .antours-app .form-control-submit:focus {
+      outline: none; }
+  .antours-app .containerCaption {
+    display: block;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px; }
+    .antours-app .containerCaption p {
+      margin: 0; }
+  .antours-app .empty-search-container .iconForEmptyStyle {
+    color: #ffb454; }
+  .antours-app .empty-search-container .empty-message {
+    font-style: italic; }
+  .antours-app .menu {
+    padding: 10px 0; }
+    .antours-app .menu .menu-lang {
+      position: relative; }
+      .antours-app .menu .menu-lang .lang-flag {
+        color: #d39340; }
+      .antours-app .menu .menu-lang .list-languages {
+        position: absolute;
+        top: 135%;
+        right: -4px;
+        visibility: hidden;
+        box-shadow: 0px 7px 46px 0px rgba(0, 0, 0, 0.5);
+        min-width: 160px;
+        padding: 5px;
+        z-index: 100;
+        background: #FFF;
+        border-radius: 5px 0px 5px 5px;
+        transform: translateY(30%);
+        opacity: 0;
+        transition: all .3s; }
+        .antours-app .menu .menu-lang .list-languages::after {
+          content: "";
+          display: block;
+          position: absolute;
+          border-style: solid;
+          border-width: 10px;
+          border-color: #FFF;
+          bottom: 100%;
+          right: 0;
+          border-top-color: transparent;
+          border-left-color: transparent;
+          border-right-color: transparent; }
+      .antours-app .menu .menu-lang:hover .list-languages {
+        transform: translateY(0%);
+        opacity: 1;
+        visibility: visible; }
+    .antours-app .menu .antours-menu-list, .antours-app .menu .list-languages {
+      margin: 0; }
+      .antours-app .menu .antours-menu-list li, .antours-app .menu .list-languages li {
+        margin-right: 10px; }
+        .antours-app .menu .antours-menu-list li:last-child, .antours-app .menu .list-languages li:last-child {
+          margin-right: 0; }
+        .antours-app .menu .antours-menu-list li a.menu-link, .antours-app .menu .list-languages li a.menu-link {
+          position: relative;
+          text-decoration: none; }
+          .antours-app .menu .antours-menu-list li a.menu-link:after, .antours-app .menu .antours-menu-list li a.menu-link.active:after, .antours-app .menu .list-languages li a.menu-link:after, .antours-app .menu .list-languages li a.menu-link.active:after {
+            content: "";
+            display: block;
+            width: 0%;
+            margin: auto;
+            border-top-color: #d39340;
+            border-top-style: solid;
+            border-top-width: 2px;
+            transition: width .4s; }
+          .antours-app .menu .antours-menu-list li a.menu-link.active:after, .antours-app .menu .list-languages li a.menu-link.active:after {
+            width: 100%; }
+          .antours-app .menu .antours-menu-list li a.menu-link:hover:after, .antours-app .menu .list-languages li a.menu-link:hover:after {
+            width: 100%; }
+    .antours-app .menu a {
+      color: #ababad; }
+  .antours-app .footer {
+    margin-top: 50px; }
+    .antours-app .footer .icon-progress {
+      background: transparent;
+      margin-left: 5px; }
+    .antours-app .footer .contact-field {
+      background: #f9f9f9;
+      border: 1px solid #f9f9f9;
+      border-radius: 0;
+      margin-top: 10px; }
+      .antours-app .footer .contact-field.message-field {
+        resize: none;
+        min-height: 130px; }
+    .antours-app .footer #contact-btn {
+      background: #d39340;
+      color: #FFF;
+      font-weight: bold;
+      margin-top: 10px; }
+    .antours-app .footer .copyright {
+      padding: 10px 0px;
+      border-top: 1px double #dcdcdc;
+      margin-top: 50px; }
+      .antours-app .footer .copyright p {
+        margin: 0; }
+    .antours-app .footer .contact-info-container {
+      margin-bottom: 20px; }
+    .antours-app .footer .social-link {
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      border-radius: 20px;
+      text-align: center;
+      background: #d39340;
+      color: #FFF;
+      font-size: 24px;
+      vertical-align: middle;
+      line-height: 1;
+      align-content: center;
+      justify-content: center;
+      margin-right: 10px;
+      transition: opacity .5s; }
+      .antours-app .footer .social-link:last-child {
+        margin-right: 0px; }
+      .antours-app .footer .social-link:hover {
+        text-decoration: none;
+        opacity: .8; }
+      .antours-app .footer .social-link i {
+        line-height: 0;
+        align-self: center; }
+  .antours-app .title-container {
+    margin: 0 auto; }
+    .antours-app .title-container .title-wrapper h1 {
+      font-size: 24px;
+      font-weight: 100;
+      margin: 0; }
+    .antours-app .title-container .title-wrapper h1.big-title {
+      font-size: 35px; }
+    .antours-app .title-container .title-wrapper .border-bottom-title {
+      width: 40.5%;
+      border: 1px solid #d39340; }
+  .antours-app .container-single-product {
+    margin-top: 10px; }
+    .antours-app .container-single-product .page-header-package {
+      padding-bottom: .5rem;
+      border-bottom: 2px solid #ffb454; }
+    .antours-app .container-single-product .product-content p:last-child {
+      margin-bottom: 0; }
+    .antours-app .container-single-product .product-information {
+      margin-top: 10px; }
+      .antours-app .container-single-product .product-information .meta-data-package {
+        border: 1px solid #ffb454;
+        border-radius: 5px;
+        padding: 5px; }
+        .antours-app .container-single-product .product-information .meta-data-package > li .option-title {
+          border-bottom: 1px solid orange;
+          font-size: 22px;
+          font-style: italic;
+          font-weight: 600; }
+      .antours-app .container-single-product .product-information .option {
+        display: block; }
+      .antours-app .container-single-product .product-information .btn-request-package > .btn-package {
+        background: #ffb454;
+        border: 1px solid #ffb454;
+        color: #FFF;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 15px; }
+        .antours-app .container-single-product .product-information .btn-request-package > .btn-package:focus, .antours-app .container-single-product .product-information .btn-request-package > .btn-package:active {
+          outline: none;
+          border: 0;
+          box-shadow: none; }
+    .antours-app .container-single-product .comments-container .comment-list {
+      position: relative;
+      padding-left: 20px; }
+      .antours-app .container-single-product .comments-container .comment-list .comment-single {
+        margin-bottom: 10px; }
+        .antours-app .container-single-product .comments-container .comment-list .comment-single:last-child {
+          margin-bottom: 0; }
+        .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-icon-container {
+          color: #d59440;
+          position: absolute;
+          z-index: 1;
+          margin-top: 0;
+          right: 100%;
+          font-size: 18px;
+          transform: translateX(50%); }
+        .antours-app .container-single-product .comments-container .comment-list .comment-single:before {
+          content: "";
+          display: block;
+          width: 2px;
+          border: 1px solid #d59440;
+          float: left;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container {
+          background: #f9f9f9;
+          border-radius: 5px;
+          padding: 10px;
+          border: 1px solid #f9f9f9;
+          position: relative; }
+          .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container:before {
+            content: "";
+            border-width: 10px;
+            position: absolute;
+            right: 100%;
+            border-color: inherit;
+            border-style: solid;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-top-color: transparent;
+            display: block; }
+          .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container .user-container .meta-data {
+            display: inline-block;
+            margin-right: 15px; }
+            .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container .user-container .meta-data:last-child {
+              margin-right: 0; }
+          .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container .comment {
+            padding-top: 10px;
+            font-style: italic; }
+            .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container .comment::before {
+              content: "\201C";
+              font-size: 30px;
+              color: silver;
+              line-height: 1; }
+            .antours-app .container-single-product .comments-container .comment-list .comment-single .comment-single-container .comment::after {
+              content: "\201D";
+              font-size: 30px;
+              color: silver;
+              line-height: 1; }
+    .antours-app .container-single-product .comments-container .btnOrange {
+      background: #d59440;
+      border-color: #d59440; }
+      .antours-app .container-single-product .comments-container .btnOrange:hover, .antours-app .container-single-product .comments-container .btnOrange:active, .antours-app .container-single-product .comments-container .btnOrange:focus, .antours-app .container-single-product .comments-container .btnOrange:active:focus {
+        background: #d59440;
+        opacity: .8;
+        outline: none; }
+      .antours-app .container-single-product .comments-container .btnOrange span {
+        color: #FFF; }
+      .antours-app .container-single-product .comments-container .btnOrange #progress-icon {
+        color: #FFF; }
+    .antours-app .container-single-product .gallery-container .gallery-wrapper {
+      max-width: 100%;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 4px; }
+      .antours-app .container-single-product .gallery-container .gallery-wrapper .gallery-thumbnail {
+        margin-right: 10px;
+        box-shadow: 0px 2px 4px 1px silver;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle; }
+        .antours-app .container-single-product .gallery-container .gallery-wrapper .gallery-thumbnail.thumbnailVideo {
+          width: 150px;
+          height: 150px;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover; }
+        .antours-app .container-single-product .gallery-container .gallery-wrapper .gallery-thumbnail .play-icon {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          font-size: 40px;
+          color: #d59440; }
+        .antours-app .container-single-product .gallery-container .gallery-wrapper .gallery-thumbnail:last-child {
+          margin-right: 0; }
+  .antours-app .package-detail {
+    margin-bottom: 15px; }
+    .antours-app .package-detail .wrapper-package {
+      box-shadow: 0px 2px 8px 3px #ccc;
+      overflow: hidden;
+      background: #f9f9f9;
+      position: relative; }
+      .antours-app .package-detail .wrapper-package .picture {
+        overflow: hidden; }
+        .antours-app .package-detail .wrapper-package .picture img {
+          transform: scale(1.1);
+          transition: transform .5s; }
+          .antours-app .package-detail .wrapper-package .picture img:hover {
+            transform: scale(1); }
+      .antours-app .package-detail .wrapper-package .quick-form {
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid #d39340;
+        border-top: 2px solid #d39340;
+        position: absolute;
+        transition: top .5s;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+        .antours-app .package-detail .wrapper-package .quick-form.open {
+          top: 0%; }
+        .antours-app .package-detail .wrapper-package .quick-form .quick-container {
+          height: 100%; }
+          .antours-app .package-detail .wrapper-package .quick-form .quick-container .quick-form-container {
+            position: relative;
+            flex: 1; }
+            .antours-app .package-detail .wrapper-package .quick-form .quick-container .quick-form-container .help-block {
+              padding: 0px 12px; }
+            .antours-app .package-detail .wrapper-package .quick-form .quick-container .quick-form-container .layout-loader {
+              position: absolute;
+              top: 100%;
+              overflow: hidden;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              background: rgba(211, 147, 64, 0.6);
+              color: #FFF;
+              z-index: 3;
+              transition: top .5s; }
+              .antours-app .package-detail .wrapper-package .quick-form .quick-container .quick-form-container .layout-loader.active {
+                top: 0; }
+              .antours-app .package-detail .wrapper-package .quick-form .quick-container .quick-form-container .layout-loader .wrapper-loader {
+                text-align: center;
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                left: 0;
+                right: 0; }
+        .antours-app .package-detail .wrapper-package .quick-form .wrapper-field {
+          margin-bottom: 0; }
+        .antours-app .package-detail .wrapper-package .quick-form .quick-field {
+          border: 1px solid #d39340;
+          border-radius: 0; }
+      .antours-app .package-detail .wrapper-package .detail-note {
+        background: #d39340;
+        color: #FFF; }
+        .antours-app .package-detail .wrapper-package .detail-note .title {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding-left: 15px; }
+        .antours-app .package-detail .wrapper-package .detail-note .btn-reserve, .antours-app .package-detail .wrapper-package .detail-note .btn-makeReserve {
+          background: transparent;
+          color: #FFF; }
+          .antours-app .package-detail .wrapper-package .detail-note .btn-reserve:focus, .antours-app .package-detail .wrapper-package .detail-note .btn-makeReserve:focus {
+            box-shadow: none; }
+        .antours-app .package-detail .wrapper-package .detail-note .icon-close {
+          float: left;
+          margin-right: 5px; }
+  .antours-app .home-container {
+    margin: 40px 0; }
+  .antours-app .packages-grid .btn-filter {
+    background: #d39340;
+    color: #FFF; }
+  .antours-app .wrapper-paginate {
+    width: 100%; }
+    .antours-app .wrapper-paginate ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .antours-app .wrapper-paginate ul li {
+        display: inline-block; }
+        .antours-app .wrapper-paginate ul li a, .antours-app .wrapper-paginate ul li span {
+          display: block;
+          padding: 5px 2px;
+          border: 1px solid #d39340;
+          color: #FFF;
+          line-height: 1;
+          background: #d39340;
+          width: 30px;
+          display: block;
+          text-align: center;
+          opacity: .8;
+          transition: opacity .5s;
+          text-decoration: none; }
+          .antours-app .wrapper-paginate ul li a.current, .antours-app .wrapper-paginate ul li a:hover, .antours-app .wrapper-paginate ul li span.current, .antours-app .wrapper-paginate ul li span:hover {
+            background: #d39340;
+            opacity: 1; }
+          .antours-app .wrapper-paginate ul li a.current, .antours-app .wrapper-paginate ul li span.current {
+            cursor: auto; }
+  .antours-app .divider {
+    margin: 20px 0px; }
+  .antours-app .product-image {
+    position: relative;
+    overflow: hidden; }
+    .antours-app .product-image.non-img {
+      border: 1px solid silver;
+      border-bottom-color: transparent; }
+    .antours-app .product-image a {
+      display: block; }
+      .antours-app .product-image a img {
+        transform: scale(1);
+        transition: transform .3s; }
+    .antours-app .product-image:not(active):hover img {
+      transform: scale(1.1);
+      transition: transform .3s; }
+    .antours-app .product-image.active img {
+      transform: scale(1.1); }
+    .antours-app .product-image.active .product-form {
+      opacity: 1;
+      transform: scale(1);
+      visibility: visible;
+      overflow: auto; }
+    .antours-app .product-image.active + .control-block .closeIcon {
+      display: inline;
+      cursor: pointer; }
+    .antours-app .product-image.active + .control-block .product-control button::before {
+      content: attr(data-active-title); }
+  .antours-app .control-block {
+    background: #d59440;
+    padding: 7px 10px;
+    border-top: 1px solid #FFF; }
+    .antours-app .control-block .product-title {
+      min-width: 0;
+      color: #FFF; }
+      .antours-app .control-block .product-title .closeIcon {
+        display: none; }
+      .antours-app .control-block .product-title span {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        width: 100%;
+        overflow: hidden; }
+    .antours-app .control-block .product-control {
+      float: right;
+      margin-left: 10px; }
+      .antours-app .control-block .product-control button {
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        border: none;
+        color: #FFF;
+        text-transform: uppercase;
+        cursor: pointer; }
+        .antours-app .control-block .product-control button::before {
+          content: attr(data-title); }
+  .antours-app .padding-content {
+    padding: 40px 0px;
+    margin: auto; }
+  .antours-app .products-widgets .product-widget {
+    max-width: 320px; }
+  .antours-app .paddingIntoContainer {
+    padding: 50px 0px; }
+  .antours-app .feature-content {
+    background: #f9f9f9; }
+    .antours-app .feature-content .feature-btn .btn {
+      background: #FFF;
+      color: #919295;
+      border-color: #FFF; }
+      .antours-app .feature-content .feature-btn .btn.active {
+        background: #ccccce;
+        color: #FFF;
+        box-shadow: none; }
+      .antours-app .feature-content .feature-btn .btn:active, .antours-app .feature-content .feature-btn .btn:focus {
+        border: 0px solid; }
+  .antours-app .service-content {
+    max-width: 1024px;
+    margin: auto; }
+  .antours-app .overlay-border {
+    margin: auto;
+    margin-bottom: 25px; }
+    .antours-app .overlay-border:last-child {
+      margin-bottom: 0px; }
+    .antours-app .overlay-border .overlay-flex {
+      position: relative;
+      overflow: hidden; }
+      .antours-app .overlay-border .overlay-flex:hover img {
+        transform: scale(1); }
+      .antours-app .overlay-border .overlay-flex img {
+        transition: transform .5s;
+        transform: scale(1.05); }
+      .antours-app .overlay-border .overlay-flex .flex-overlay-container {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(211, 147, 64, 0.6);
+        color: #FFF;
+        text-decoration: none; }
+    .antours-app .overlay-border .content-service {
+      border-color: silver;
+      border-width: 1px;
+      border-style: solid;
+      border-top-color: transparent;
+      padding: 10px; }
+  @media screen and (max-width: 575px) {
+    .antours-app {
+      /* Home Container */
+      /* Service Container */ }
+      .antours-app .menu .logo {
+        display: flex;
+        align-items: center; }
+        .antours-app .menu .logo .container-logo {
+          flex: 1; }
+      .antours-app .menu .menu-list {
+        background: #d39340;
+        max-height: 0;
+        min-height: 0px;
+        transition: max-height .6s;
+        overflow: hidden; }
+        .antours-app .menu .menu-list.open {
+          max-height: 140px; }
+        .antours-app .menu .menu-list ul {
+          padding: 5px 0; }
+          .antours-app .menu .menu-list ul li {
+            text-align: center;
+            margin-right: 0px; }
+            .antours-app .menu .menu-list ul li a.menu-link {
+              color: #FFF; }
+              .antours-app .menu .menu-list ul li a.menu-link.active:after {
+                width: 100%;
+                border-top-color: #FFF; }
+      .antours-app .menu .list-languages {
+        text-align: center; }
+        .antours-app .menu .list-languages li {
+          display: inline-block; }
+      .antours-app .title-container .title-wrapper h1 {
+        font-size: 18px;
+        font-weight: 100;
+        margin: 0; }
+      .antours-app .title-container .title-wrapper h1.big-title {
+        font-size: 20px; }
+      .antours-app .title-container .title-wrapper .bottom-slogan {
+        font-size: 13px; }
+      .antours-app .footer {
+        margin-top: 10px; }
+        .antours-app .footer .copyright {
+          font-size: 13px;
+          margin-top: 10px; }
+        .antours-app .footer .contact-field {
+          border: none; }
+        .antours-app .footer #contact-btn {
+          width: 100%; }
+      .antours-app .home-container {
+        margin: 20px 0 0; }
+      .antours-app .overlay-border {
+        margin-bottom: 20px; }
+        .antours-app .overlay-border:last-child {
+          margin-bottom: 0px; }
+        .antours-app .overlay-border h1.overlay-title {
+          font-size: 22px; }
+        .antours-app .overlay-border .content-service {
+          padding: 5px;
+          font-size: 14px; } }
+
+/*# sourceMappingURL=style.css.map */

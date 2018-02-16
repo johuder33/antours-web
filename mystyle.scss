@@ -1,0 +1,1139 @@
+// Break media query points
+// smartphones
+$break-max-smartphone: 575px;
+$break-min-smartphone: 320px;
+$antoursColor: #d39340;
+$antoursColorRGBA: rgba(211, 147, 64, 0.6);
+$white: #FFF;
+$backgroundField: #f9f9f9;
+$antoursFontColor: #ababad;
+$backgroundReservation: #d59440;
+$dividerInputReservation: #f2f0f0;
+$backrgroundButtonReservation: #ffb454;
+
+@mixin placeholder($color) {
+	&:-moz-placeholder { color: $color; opacity: 1; }
+	&::-moz-placeholder { color: $color; opacity: 1; }
+	&:-ms-input-placeholder { color: $color; }
+	&::-webkit-input-placeholder  { color: $color; }
+}
+
+.antours-app {
+    font-family: 'Open Sans', sans-serif;
+    color: $antoursFontColor;
+
+    .product-form-quick {
+        position: relative;
+    }
+
+    // product form 
+    .product-form {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        border-color: $backgroundReservation;
+        border-width: 1px;
+        border-style: solid;
+        border-top-width: 4px;
+        opacity: 0;
+        transform: scale(1.5);
+        visibility: hidden;
+        transition: opacity .5s, transform .3s, visibility .3s;
+    }
+
+    .single-product-form{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        z-index: 2;
+        border-color: $backgroundReservation;
+        border-width: 1px;
+        border-style: solid;
+        border-top-width: 4px;
+
+        .single-field-container {
+            width: 100%;
+            display: block;
+            border-bottom: 1px solid $backgroundReservation;
+            background: $white;
+
+            input, textarea {
+                width: inherit;
+                border: none;
+                border-bottom: 1px solid $backgroundReservation;
+                padding: 6px 10px;
+                border-width: 0;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder {
+                    color: green;
+                }
+
+                $color: #ccccce;
+                @include placeholder($color);
+            }
+
+            .simple-package-field {
+                width: inherit;
+                border: none;
+                padding: 6px 10px;
+
+                label {
+                    margin-bottom: 0;
+                }
+            }
+
+            .simple-form-field {
+                &.is-invalid {
+                    & + .invalid-feedback {
+                        display: block;
+                        margin-top: 0;
+                        background-color: $white;
+                        padding: 0px 10px;
+                    }
+                }
+            }
+        }
+
+        .form-progress-layout {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 2;
+            background-color: $antoursColorRGBA;
+            display: none;
+
+            .progress-container {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                margin: auto;
+                text-align: center;
+                text-shadow: 0px 2px 10px sienna;
+                color: $white;
+            }
+        }
+
+        &.running {
+            .form-progress-layout {
+                display: block;
+            }
+        }
+    }
+
+    .reservation-container {
+        background: $backgroundReservation;
+
+        .reservation-wrapper {
+            padding: 60px 0px;
+
+            .reservation-title {
+                * {
+                    font-size: 30px;
+                    color: $white;
+                    font-weight: 300;
+                    word-spacing: 3px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .form-container {
+                max-width: 800px;
+                width: 100%;
+                background: $white;
+                margin: auto;
+                overflow: hidden;
+                position: relative;
+                min-height: 0px;
+                transition: min-height .5s;
+                box-shadow: 0px 4px 49px -15px #000;
+
+                .step {
+                    padding: 30px 40px 20px 40px;
+                    max-height: 300px;
+                    overflow: auto;
+                }
+
+                .btn {
+                    outline: none;
+
+                    &:active, &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+
+                .btn-next-step {
+                    background: $backrgroundButtonReservation;
+                    border-color: $backrgroundButtonReservation;
+                    border-radius: 0px;
+                    cursor: pointer;
+                    font-weight: bold;
+                }
+
+                .steps {
+                    position: absolute;
+                    transform: translateX(-100%);
+                    transition: transform .5s;
+                    top: 0;
+                    width: 100%;
+
+                    &.current {
+                        display: block;
+                        position: relative;
+                        transform: translateX(0%);
+
+                        & ~ .steps {
+                            transform: translateX(100%);
+                        }
+
+                        .title-table {
+                            text-align: center;
+                            background: #d49348;
+                            color: $white; 
+                        }
+
+                        .services_container {
+                            .container-loading {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+
+                .col-label {
+                    min-width: 80px;
+                    max-width: 90px;
+                }
+
+                .form-control-border {
+                    border-color: $antoursColor;
+                }
+
+                .container-field {
+                    border: 1px solid $dividerInputReservation;
+                    padding: 0px 20px 0 10px;
+                }
+
+                .reservation-field {
+                    border-color: transparent;
+                    border-style: solid;
+                    border-width: 0;
+                    border-radius: 0;
+
+                    & + .field-icon {
+                        font-size: 20px;
+                        color: $backgroundReservation;
+                    }
+                }
+            }
+        }
+    }
+
+    .margin-v-separator {
+        margin: 35px auto;
+    }
+
+    .vertical-separator {
+        margin-top: 10px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 30px;
+    }
+
+    .center-block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .link-telephone, .link-email {
+        color: $antoursFontColor;
+    }
+
+    .form-control-submit {
+        outline: none;
+
+        &:active, &:focus {
+            outline: none;
+        }
+    }
+    
+    .containerCaption {
+        display: block;
+        padding: 5px;
+        background: rgba(0, 0, 0, .3);
+        border-radius: 5px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .empty-search-container {
+        .iconForEmptyStyle {
+            color: $backrgroundButtonReservation;
+        }
+        
+        .empty-message {
+            font-style: italic;
+        }
+    }
+
+    /*Menu Styles*/
+    .menu {
+        .menu-lang {
+            position: relative;
+
+            .lang-flag {
+                color: $antoursColor;
+            }
+
+            .list-languages {
+                position: absolute;
+                top: 135%;
+                right: -4px;
+                visibility: hidden;
+                box-shadow: 0px 7px 46px 0px rgba(0, 0, 0, 0.5);
+                min-width: 160px;
+                padding: 5px;
+                z-index: 100;
+                background: $white;
+                border-radius: 5px 0px 5px 5px;
+                transform: translateY(30%);
+                opacity: 0;
+                transition: all .3s;
+
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    border-style: solid;
+                    border-width: 10px;
+                    border-color: $white;
+                    bottom: 100%;
+                    right: 0;
+                    border-top-color: transparent;
+                    border-left-color: transparent;
+                    border-right-color: transparent;
+                }
+            }
+
+            &:hover{
+                .list-languages {
+                    transform: translateY(0%);
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+
+        .antours-menu-list, .list-languages {
+            margin: 0;
+
+            li {
+                margin-right: 10px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a.menu-link {
+                    position: relative;
+                    text-decoration: none;
+
+                    &:after, &.active:after {
+                        content: "";
+                        display: block;
+                        width: 0%;
+                        margin: auto;
+                        border-top-color: $antoursColor;
+                        border-top-style: solid;
+                        border-top-width:  2px;
+                        transition: width .4s;
+                    }
+
+                    &.active:after {
+                        width: 100%;
+                    }
+
+                    &:hover:after{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        a {
+            color: #ababad;
+        }
+
+        padding: 10px 0;
+    }
+
+    /* Footer Styles */
+    .footer {
+        margin-top: 50px;
+
+        .icon-progress {
+            background: transparent;
+            margin-left: 5px;
+        }
+
+        .contact-field {
+            background: $backgroundField;
+            border: 1px solid $backgroundField;
+            border-radius: 0;
+            margin-top: 10px;
+
+            &.message-field{
+                resize: none;
+                min-height: 130px;
+            }
+        }
+        
+        #contact-btn {
+            background: $antoursColor;
+            color: $white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .copyright {
+            padding: 10px 0px;
+            border-top: 1px double #dcdcdc;
+            margin-top: 50px;
+            
+            p {
+                margin: 0;
+            }
+        }
+
+        .contact-info-container {
+            margin-bottom: 20px;
+        }
+
+        .social-link {
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 20px;
+            text-align: center;
+            background: $antoursColor;
+            color: $white;
+            font-size: 24px;
+            vertical-align: middle;
+            line-height: 1;
+            align-content: center;
+            justify-content: center;
+            margin-right: 10px;
+            transition: opacity .5s;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            &:hover {
+                text-decoration: none;
+                opacity: .8;
+            }
+
+            i {
+                line-height: 0;
+                align-self: center;
+            }
+        }
+    }
+
+    /* Title Container */
+    .title-container {
+        margin: 0 auto;
+
+        .title-wrapper {
+            h1 {
+                font-size: 24px;
+                font-weight: 100;
+                margin: 0;
+            }
+
+            h1.big-title {
+                font-size: 35px;
+            }
+
+            .border-bottom-title {
+                width: 40.5%;
+                border: 1px solid $antoursColor;
+            }
+        }
+    }
+
+    .container-single-product {
+        margin-top: 10px;
+
+        .page-header-package {
+            padding-bottom: .5rem;
+            border-bottom: 2px solid $backrgroundButtonReservation;
+        }
+
+        .product-content {
+            p:last-child {
+                margin-bottom: 0;
+            }
+        }
+    
+        .product-information {
+            margin-top: 10px;
+
+            .meta-data-package {
+                border: 1px solid $backrgroundButtonReservation;
+                border-radius: 5px;
+                padding: 5px;
+
+                & > li {
+                    .option-title {
+                        border-bottom: 1px solid orange;
+                        font-size: 22px;
+                        font-style: italic;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .option {
+                display: block;
+            }
+    
+            .btn-request-package {
+                & > .btn-package {
+                    background: $backrgroundButtonReservation;
+                    border: 1px solid $backrgroundButtonReservation;
+                    color: $white;
+                    width: 100%;
+                    cursor: pointer;
+                    margin-top: 15px;
+
+                    &:focus, &:active {
+                        outline: none;
+                        border: 0;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+
+        .comments-container {
+            .comment-list {
+                position: relative;
+                padding-left: 20px;
+            
+                .comment-single {
+                    margin-bottom: 10px;
+            
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+            
+                    .comment-icon-container {
+                        color: $backgroundReservation;
+                        position: absolute;
+                        z-index: 1;
+                        margin-top: 0;
+                        right: 100%;
+                        font-size: 18px;
+                        transform: translateX(50%);
+                    }
+            
+                    &:before {
+                        content: "";
+                        display: block;
+                        width: 2px;
+                        border: 1px solid #d59440;
+                        float: left;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+            
+                    .comment-single-container {
+                        background: #f9f9f9;
+                        border-radius: 5px;
+                        padding: 10px;
+                        border: 1px solid #f9f9f9;
+                        position: relative;
+            
+                        &:before {
+                            content: "";
+                            border-width: 10px;
+                            position: absolute;
+                            right: 100%;
+                            border-color: inherit;
+                            border-style: solid;
+                            border-bottom-color: transparent;
+                            border-left-color: transparent;
+                            border-top-color: transparent;
+                            display: block;
+                        }
+            
+                        .user-container {
+                            .meta-data {
+                                display: inline-block;
+                                margin-right: 15px;
+            
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+            
+                        .comment{
+                            padding-top: 10px;
+                            font-style: italic;
+            
+                            &::before {
+                                content: "\201C";
+                                font-size: 30px;
+                                color: silver;
+                                line-height: 1;
+                            }
+            
+                            &::after {
+                                content: "\201D";
+                                font-size: 30px;
+                                color: silver;
+                                line-height: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .btnOrange {
+                background: #d59440;
+                border-color: #d59440;
+            
+                &:hover, &:active, &:focus, &:active:focus {
+                    background: #d59440;
+                    opacity: .8;
+                    outline: none;
+                }
+            
+                span {
+                    color: #FFF;
+                }
+            
+                #progress-icon {
+                    color: #FFF;
+                }
+            }
+        }
+
+        .gallery-container{
+            .gallery-wrapper {
+                max-width: 100%;
+                overflow: auto;
+                white-space: nowrap;
+                padding: 4px;
+        
+                .gallery-thumbnail {
+                    margin-right: 10px;
+                    box-shadow: 0px 2px 4px 1px silver;
+                    display: inline-block;
+                    position: relative;
+                    vertical-align: middle;
+
+                    &.thumbnailVideo {
+                        width: 150px;
+                        height: 150px;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+
+                    .play-icon {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                        right: 0;
+                        font-size: 40px;
+                        color: $backgroundReservation;
+                    }
+        
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Package Item */
+    .package-detail {
+        margin-bottom: 15px;
+
+        .wrapper-package {
+            box-shadow: 0px 2px 8px 3px #ccc;
+            overflow: hidden;
+            background: $backgroundField;
+            position: relative;
+
+            .picture {
+                overflow: hidden;
+
+                img {
+                    transform: scale(1.1);
+                    transition: transform .5s;
+
+                    &:hover {
+                        transform: scale(1);
+                    }
+                }
+            }
+
+            .quick-form {
+                background: rgba(255, 255, 255, 0.8);
+                border: 1px solid $antoursColor;
+                border-top: 2px solid $antoursColor;
+                position: absolute;
+                transition: top .5s;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                &.open {
+                    top: 0%;
+                }
+
+                .quick-container {
+                    height: 100%;
+
+                    .quick-form-container {
+                        position: relative;
+                        flex: 1;
+
+                        .help-block {
+                            padding: 0px 12px;
+                        }
+
+                        .layout-loader {
+                            position: absolute;
+                            top: 100%;
+                            overflow: hidden;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background: $antoursColorRGBA;
+                            color: $white;
+                            z-index: 3;
+                            transition: top .5s;
+
+                            &.active {
+                                top: 0;
+                            }
+
+                            .wrapper-loader {
+                                text-align: center;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+
+                .wrapper-field {
+                    margin-bottom: 0;
+                }
+
+                .quick-field {
+                    border: 1px solid $antoursColor;
+                    border-radius: 0;
+                }
+            }
+
+            .detail-note {
+                background: $antoursColor;
+                color: $white;
+
+                .title {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    padding-left: 15px;
+                }
+
+                .btn-reserve, .btn-makeReserve {
+                    background: transparent;
+                    color: $white;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+
+                .icon-close {
+                    float: left;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    /* Home Container */
+    .home-container {
+        margin: 40px 0;
+    }
+
+    /* Package Container */
+    .packages-grid {
+        .btn-filter {
+            background: $antoursColor;
+            color: $white;
+        }
+    }
+
+    /* Paginate */
+    .wrapper-paginate {
+        width: 100%;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+
+                a, span {
+                    display: block;
+                    padding: 5px 2px;
+                    border: 1px solid $antoursColor;
+                    color: $white;
+                    line-height: 1;
+                    background: #d39340;
+                    width: 30px;
+                    display: block;
+                    text-align: center;
+                    opacity: .8;
+                    transition: opacity .5s;
+                    text-decoration: none;
+
+                    &.current, &:hover {
+                        background: #d39340;
+                        opacity: 1;
+                    }
+
+                    &.current {
+                        cursor: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .divider {
+        margin: 20px 0px;
+    }
+
+    .product-image {
+        position: relative;
+        overflow: hidden;
+
+        &.non-img {
+            border: 1px solid silver;
+            border-bottom-color: transparent;
+        }
+
+        a {
+            display: block;
+
+            img {
+                transform: scale(1);
+                transition: transform .3s;
+            }
+        }
+
+        &:not(active) {
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                    transition: transform .3s;
+                }
+            }
+        }
+
+        &.active {
+            img {
+                transform: scale(1.1);
+            }
+
+            .product-form {
+                opacity: 1;
+                transform: scale(1);
+                visibility: visible;
+                overflow: auto;
+            }
+
+            + .control-block {
+                .closeIcon {
+                    display: inline;
+                    cursor: pointer;
+                }
+
+                .product-control {
+                    button {
+                        &::before {
+                            content: attr(data-active-title);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .control-block {
+        background: $backgroundReservation;
+        padding: 7px 10px;
+        border-top: 1px solid $white;
+
+        .product-title {
+            min-width: 0;
+            color: $white;
+
+            .closeIcon {
+                display: none;
+            }
+
+            span {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                display: block;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+
+        .product-control {
+            float: right;
+            margin-left: 10px;
+
+            button {
+                padding: 0;
+                margin: 0;
+                background: transparent;
+                border: none;
+                color: $white;
+                text-transform: uppercase;
+                cursor: pointer;
+
+                &::before {
+                    content: attr(data-title)
+                }
+            }
+        }
+    }
+
+    .padding-content{
+        padding: 40px 0px;
+        margin: auto;
+    }
+
+    .products-widgets {
+        .product-widget {
+            max-width: 320px;
+        }
+    }
+
+    .paddingIntoContainer{
+        padding: 50px 0px;
+    }
+
+    .feature-content {
+        background: #f9f9f9;
+
+        .feature-btn {
+            .btn {
+                background: $white;
+                color: #919295;
+                border-color: $white;
+
+                &.active {
+                    background: #ccccce;
+                    color: $white;
+                    box-shadow: none;
+                }
+
+                &:active, &:focus {
+                    border: 0px solid;
+                }
+            }
+        }
+    }
+
+    /* Service Container */
+    .service-content {
+        max-width: 1024px;
+        margin: auto;
+    }
+    .overlay-border {
+        margin: auto;
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        .overlay-flex {
+            position: relative;
+            overflow: hidden;
+
+            &:hover {
+                img {
+                    transform: scale(1);
+                }
+            }
+
+            img {
+                transition: transform .5s;
+                transform: scale(1.05);
+            }
+
+            .flex-overlay-container {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background: $antoursColorRGBA;
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+        .content-service{
+            border-color: silver;
+            border-width: 1px;
+            border-style: solid;
+            border-top-color: transparent;
+            padding: 10px;
+        }
+    }
+
+    @media screen and (max-width: $break-max-smartphone) {
+        .menu {
+            .logo {
+                display: flex;
+                align-items: center;
+
+                .container-logo {
+                    flex: 1;
+                }
+            }
+
+            .menu-list {
+                background:$antoursColor;
+                max-height: 0;
+                min-height: 0px;
+                transition: max-height .6s;
+                overflow: hidden;
+
+                &.open {
+                    max-height: 140px;
+                }
+
+                ul {
+                    padding: 5px 0;
+
+                    li {
+                        text-align: center;
+                        margin-right: 0px;
+
+                        a.menu-link {
+                            color: $white;
+
+                            &.active:after {
+                                width: 100%;
+                                border-top-color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .list-languages {
+                text-align: center;
+
+                li {
+                    display: inline-block;
+                } 
+            }
+        }
+
+        .title-container {
+            .title-wrapper {
+                h1 {
+                    font-size: 18px;
+                    font-weight: 100;
+                    margin: 0;
+                }
+
+                h1.big-title {
+                    font-size: 20px;
+                }
+
+                .bottom-slogan {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .footer {
+            margin-top: 10px;
+
+            .copyright {
+                font-size: 13px;
+                margin-top: 10px;
+            }
+
+            .contact-field {
+                border: none;
+            }
+
+            #contact-btn {
+                width: 100%;
+            }
+        }
+
+        /* Home Container */
+        .home-container {
+            margin: 20px 0 0;
+        }
+
+        /* Service Container */
+        .overlay-border {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            h1.overlay-title {
+                font-size: 22px;
+            }
+
+            .content-service {
+                padding: 5px;
+                font-size: 14px;
+            }
+        }
+    }
+}

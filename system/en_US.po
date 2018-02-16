@@ -1,0 +1,711 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+# TAXI_BOOKING_CHOOSE_CITY
+msgid "Taxi_booking_choose_city_label"
+msgstr "Choose City"
+
+# TAXI_BOOKING_CHOOSE_COMMUNE
+msgid "Taxi_booking_choose_commune_label"
+msgstr "Choose commune"
+
+# TAXI_BOOKING_ORIGIN
+msgid "Taxi_booking_origin_label"
+msgstr "from"
+
+# TAXI_BOOKING_PICK_CITY
+msgid "Taxi_booking_pick_city_label"
+msgstr "Choose City"
+
+# TAXI_BOOKING_START_FROM
+msgid "Taxi_booking_start_from_label"
+msgstr "Begin from"
+
+# TAXI_BOOKING_TRIP_TWO_WAY
+msgid "Taxi_booking_trip_two_way_label"
+msgstr "Round Trip"
+
+# TAXI_BOOKING_TRIP_ONE_WAY
+msgid "Taxi_booking_trip_one_way_label"
+msgstr "One way"
+
+# TAXI_BOOKING_DESTINY
+msgid "Taxi_booking_destiny_label"
+msgstr "To"
+
+# TAXI_BOOKING_SERVICE_NAME
+msgid "Taxi_booking_service_name_label"
+msgstr "Service Name"
+
+# TAXI_BOOKING_SERVICE_DESC
+msgid "Taxi_booking_service_desc_label"
+msgstr "Service Description"
+
+# TAXI_BOOKING_PASSENGERS
+msgid "Taxi_booking_passengers_label"
+msgstr "Nº Passengers"
+
+# TAXI_BOOKING_PRICE
+msgid "Taxi_booking_price_label"
+msgstr "Price"
+
+# TAXI_BOOKING_GO
+msgid "Taxi_booking_go_label"
+msgstr ""
+
+# TAXI_BOOKING_RETURN
+msgid "Taxi_booking_return_label"
+msgstr ""
+
+# TAXI_BOOKING_DATE_START
+msgid "Taxi_booking_date_go_label"
+msgstr ""
+
+# TAXI_BOOKING_DATE_RETURN
+msgid "Taxi_booking_date_return_label"
+msgstr ""
+
+# TAXI_BOOKING_TIME_GO
+msgid "Taxi_booking_time_go_label"
+msgstr ""
+
+# TAXI_BOOKING_TIME_RETURN
+msgid "Taxi_booking_time_return_label"
+msgstr ""
+
+# TAXI_BOOKING_AIRPORT
+msgid "Taxi_booking_airport_label"
+msgstr ""
+
+# TAXI_BOOKING_HOME
+msgid "Taxi_booking_home_label"
+msgstr ""
+
+# TAXI_BOOKING_STREET
+msgid "Taxi_booking_street_label"
+msgstr ""
+
+# TAXI_BOOKING_BUILDING
+msgid "Taxi_booking_building_label"
+msgstr ""
+
+# TAXI_BOOKING_DEPTO
+msgid "Taxi_booking_depto_label"
+msgstr ""
+
+# TAXI_BOOKING_REFERENCE
+msgid "Taxi_booking_reference_label"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_PHONE
+msgid "Taxi_booking_passenger_phone_label"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_EMAIL
+msgid "Taxi_booking_passenger_email_label"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_FULLNAME
+msgid "Taxi_booking_passenger_fullname_label"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_RUT
+msgid "Taxi_booking_passenger_rut_label"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_PASSPORT
+msgid "Taxi_booking_passenger_passport_label"
+msgstr ""
+
+# TAXI_BOOKING_NEXT_BUTTON
+msgid "Taxi_booking_next_button_label"
+msgstr ""
+
+# TAXI_BOOKING_PREV_BUTTON
+msgid "Taxi_booking_prev_button_label"
+msgstr ""
+
+# TAXI_BOOKING_SUBMIT_BUTTON
+msgid "Taxi_booking_submit_button_label"
+msgstr ""
+
+# COMMENT_BTN_LOADING
+msgid "Comment_btn_loading_label"
+msgstr ""
+
+# COMMENT_BTN_LOAD
+msgid "Comment_btn_load_label"
+msgstr ""
+
+# CONTACT_BTN_LOADING
+msgid "Contact_btn_loading_label"
+msgstr ""
+
+# CONTACT_BTN_LOAD
+msgid "Contact_btn_load_label"
+msgstr ""
+
+# CONTACT_FORM_FIELD_NAME
+msgid "Contact_form_field_name"
+msgstr ""
+
+# CONTACT_FORM_FIELD_LASTNAME
+msgid "Contact_form_field_lastname"
+msgstr ""
+
+# CONTACT_FORM_FIELD_SUBJECT
+msgid "Contact_form_field_subject"
+msgstr ""
+
+# CONTACT_FORM_FIELD_MESSAGE
+msgid "Contact_form_field_message"
+msgstr ""
+
+# QUICK_FIELD_FULLNAME_PLACEHOLDER
+msgid "Quickfield_input_fullname"
+msgstr ""
+
+# QUICK_FIELD_FULLNAME_ERROR_MESSAGE
+msgid "Quickfield_input_fullname_error"
+msgstr ""
+
+# QUICK_FIELD_ID_NUMBER_PLACEHOLDER
+msgid "Quickfield_input_id_number"
+msgstr ""
+
+# QUICK_FIELD_ID_NUMBER_ERROR_MESSAGE
+msgid "Quickfield_input_id_number_error"
+msgstr ""
+
+# QUICK_FIELD_PHONE_PLACEHOLDER
+msgid "Quickfield_input_phone"
+msgstr ""
+
+# QUICK_FIELD_PHONE_ERROR_MESSAGE
+msgid "Quickfield_input_phone_error"
+msgstr ""
+
+# QUICK_FIELD_EMAIL_PLACEHOLDER
+msgid "Quickfield_input_email"
+msgstr ""
+
+# QUICK_FIELD_EMAIL_ERROR_MESSAGE
+msgid "Quickfield_input_email_error"
+msgstr ""
+
+# QUICK_FIELD_PASSENGERS_PLACEHOLDER
+msgid "Quickfield_input_passengers"
+msgstr ""
+
+# QUICK_FIELD_PASSENGERS_ERROR_MESSAGE
+msgid "Quickfield_input_passengers_error"
+msgstr ""
+
+# QUICK_FIELD_HOTEL_ADDRESS_PLACEHOLDER
+msgid "Quickfield_input_hotel_address"
+msgstr ""
+
+# QUICK_FIELD_HOTEL_ADDRESS_ERROR_MESSAGE
+msgid "Quickfield_input_hotel_address_error"
+msgstr ""
+
+# CPT_SERVICE_NAME_MENU_LABEL
+msgid "Cpt_service_menu_label"
+msgstr ""
+
+# CPT_SERVICE_SINGULAR_MENU_LABEL
+msgid "Cpt_service_singular_menu_label"
+msgstr ""
+
+# CPT_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Cpt_service_add_new_menu_label"
+msgstr ""
+
+# CPT_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Cpt_service_not_found_menu_label"
+msgstr ""
+
+# CPT_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_service_all_items_menu_label"
+msgstr ""
+
+# CPT_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Cpt_service_new_item_menu_label"
+msgstr ""
+
+# CPT_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_featured_image_menu_label"
+msgstr ""
+
+# CPT_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_set_featured_image_menu_label"
+msgstr ""
+
+# CPT_SERVICE_DESCRIPTION
+msgid "Cpt_service_description"
+msgstr ""
+
+# CPT_PACKAGE_NAME_MENU_LABEL
+msgid "Cpt_package_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_SINGULAR_MENU_LABEL
+msgid "Cpt_package_singular_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_ADD_NEW_MENU_LABEL
+msgid "Cpt_package_add_new_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_NOT_FOUND_MENU_LABEL
+msgid "Cpt_package_not_found_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_package_all_items_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_NEW_ITEM_MENU_LABEL
+msgid "Cpt_package_new_item_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_package_featured_image_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_package_set_featured_image_menu_label"
+msgstr ""
+
+# CPT_PACKAGE_DESCRIPTION
+msgid "Cpt_package_description"
+msgstr ""
+
+# CPT_ABOUT_NAME_MENU_LABEL
+msgid "Cpt_about_menu_label"
+msgstr ""
+
+# CPT_ABOUT_SINGULAR_MENU_LABEL
+msgid "Cpt_about_singular_menu_label"
+msgstr ""
+
+# CPT_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Cpt_about_add_new_menu_label"
+msgstr ""
+
+# CPT_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Cpt_about_not_found_menu_label"
+msgstr ""
+
+# CPT_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_about_all_items_menu_label"
+msgstr ""
+
+# CPT_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Cpt_about_new_item_menu_label"
+msgstr ""
+
+# CPT_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_about_featured_image_menu_label"
+msgstr ""
+
+# CPT_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_about_set_featured_image_menu_label"
+msgstr ""
+
+# CPT_ABOUT_DESCRIPTION
+msgid "Cpt_about_description"
+msgstr ""
+
+# CPT_HOME_NAME_MENU_LABEL
+msgid "Cpt_home_menu_label"
+msgstr ""
+
+# CPT_HOME_SINGULAR_MENU_LABEL
+msgid "Cpt_home_singular_menu_label"
+msgstr ""
+
+# CPT_HOME_ADD_NEW_MENU_LABEL
+msgid "Cpt_home_add_new_menu_label"
+msgstr ""
+
+# CPT_HOME_NOT_FOUND_MENU_LABEL
+msgid "Cpt_home_not_found_menu_label"
+msgstr ""
+
+# CPT_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_home_all_items_menu_label"
+msgstr ""
+
+# CPT_HOME_NEW_ITEM_MENU_LABEL
+msgid "Cpt_home_new_item_menu_label"
+msgstr ""
+
+# CPT_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_home_featured_image_menu_label"
+msgstr ""
+
+# CPT_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_home_set_featured_image_menu_label"
+msgstr ""
+
+# CPT_HOME_DESCRIPTION
+msgid "Cpt_home_description"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NAME_MENU_LABEL
+msgid "Cpt_service_content_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_SINGULAR_MENU_LABEL
+msgid "Cpt_service_content_singular_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_ADD_NEW_MENU_LABEL
+msgid "Cpt_service_content_add_new_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NOT_FOUND_MENU_LABEL
+msgid "Cpt_service_content_not_found_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_ALL_ITEMS_MENU_LABEL
+msgid "Cpt_service_content_all_items_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NEW_ITEM_MENU_LABEL
+msgid "Cpt_service_content_new_item_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_content_featured_image_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Cpt_service_content_set_featured_image_menu_label"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_DESCRIPTION
+msgid "Cpt_service_content_description"
+msgstr ""
+
+# CUSTOM_CATEGORY_NAME
+msgid "Category_name"
+msgstr ""
+
+# BANNER_SERVICE_NAME_MENU_LABEL
+msgid "Banner_service_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_SINGULAR_MENU_LABEL
+msgid "Banner_service_singular_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Banner_service_add_new_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Banner_service_not_found_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Banner_service_all_items_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Banner_service_new_item_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_service_featured_image_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_service_set_featured_image_menu_label"
+msgstr ""
+
+# BANNER_SERVICE_DESCRIPTION
+msgid "Banner_service_description"
+msgstr ""
+
+# BANNER_ABOUT_NAME_MENU_LABEL
+msgid "Banner_about_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_SINGULAR_MENU_LABEL
+msgid "Banner_about_singular_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Banner_about_add_new_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Banner_about_not_found_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Banner_about_all_items_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Banner_about_new_item_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_about_featured_image_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_about_set_featured_image_menu_label"
+msgstr ""
+
+# BANNER_ABOUT_DESCRIPTION
+msgid "Banner_about_description"
+msgstr ""
+
+# BANNER_HOME_NAME_MENU_LABEL
+msgid "Banner_home_menu_label"
+msgstr ""
+
+# BANNER_HOME_SINGULAR_MENU_LABEL
+msgid "Banner_home_singular_menu_label"
+msgstr ""
+
+# BANNER_HOME_ADD_NEW_MENU_LABEL
+msgid "Banner_home_add_new_menu_label"
+msgstr ""
+
+# BANNER_HOME_NOT_FOUND_MENU_LABEL
+msgid "Banner_home_not_found_menu_label"
+msgstr ""
+
+# BANNER_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Banner_home_all_items_menu_label"
+msgstr ""
+
+# BANNER_HOME_NEW_ITEM_MENU_LABEL
+msgid "Banner_home_new_item_menu_label"
+msgstr ""
+
+# BANNER_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_home_featured_image_menu_label"
+msgstr ""
+
+# BANNER_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner_home_set_featured_image_menu_label"
+msgstr ""
+
+# BANNER_HOME_DESCRIPTION
+msgid "Banner_home_description"
+msgstr ""
+
+# METABOX_TRIP_PRICE_TITLE
+msgid "Metabox_trip_price_title"
+msgstr ""
+
+# METABOX_TRIP_PRICE
+msgid "Metabox_trip_price"
+msgstr ""
+
+# METABOX_SCHEDULE_TRIP
+msgid "Metabox_schedule_trip"
+msgstr ""
+
+# METABOX_TIME_DEPARTURE
+msgid "Metabox_time_departure"
+msgstr ""
+
+# METABOX_TIME_RETURN
+msgid "Metabox_time_return"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_TITLE
+msgid "Metabox_departure_place_title"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE
+msgid "Metabox_departure_place"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_DESCRIPTION
+msgid "Metabox_departure_place_description"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_CLONE_BTN
+msgid "Metabox_departure_place_clone_btn"
+msgstr ""
+
+# METABOX_TRIP_MAP_TITLE
+msgid "Metabox_trip_map_title"
+msgstr ""
+
+# METABOX_TRIP_MAP_ROUTE_NAME
+msgid "Metabox_trip_map_route_name"
+msgstr ""
+
+# METABOX_TRIP_MAP
+msgid "Metabox_trip_map"
+msgstr ""
+
+# METABOX_TRIP_GALLERY_TITLE
+msgid "Metabox_trip_gallery_title"
+msgstr ""
+
+# METABOX_TRIP_GALLERY
+msgid "Metabox_trip_gallery"
+msgstr ""
+
+# CHECKER_IMAGE_SIZE_ERROR_MESSAGE
+msgid ""
+"Tu imagen es muy pequeña debería ser $width de ancho y $height de alto, pero "
+"es $currentWidth x $currentHeight"
+msgstr ""
+
+# EMAIL_SENDING_ERROR_MESSAGE
+msgid "Checker_sending_email_error_message"
+msgstr ""
+
+# CAR_BOOKING_LIST_TITLE
+msgid "Page_menu_car_booking_page_title"
+msgstr ""
+
+# CAR_BOOKING_LIST_MENU_NAME
+msgid "Page_menu_car_booking_name"
+msgstr ""
+
+# CLASS_RESERVATION_UNDEFINED_ERROR_MESSAGE
+msgid "Class_reservation_undefined_error_message"
+msgstr ""
+
+# RESERVATION_NONCE_UNDEFINED_ERROR_MESSAGE
+msgid "Reservation_nonce_undefined_error_message"
+msgstr ""
+
+# RESERVATION_NONCE_INCORRECT_ERROR_MESSAGE
+msgid "Reservation_nonce_incorrect_error_message"
+msgstr ""
+
+# RESERVATION_SOME_FIELDS_MISSING_ERROR_MESSAGE
+msgid "Reservation_some_fields_missing_error_message"
+msgstr ""
+
+# RESERVATION_CUSTOMER_ID_ERROR_MESSAGE
+msgid "Reservation_customer_id_error_message"
+msgstr ""
+
+# RESERVATION_PASSENGERS_ERROR_MESSAGE
+msgid "Reservation_passengers_error_message"
+msgstr ""
+
+# RESERVATION_CUSTOMER_EMAIL_ERROR_MESSAGE
+msgid "Reservation_customer_email_error_message"
+msgstr ""
+
+# RESERVATION_PACKAGE_ID_ERROR_MESSAGE
+msgid "Reservation_package_id_error_message"
+msgstr ""
+
+# RESERVATION_PACKAGE_NOT_FOUND_ERROR_MESSAGE
+msgid "Reservation_package_not_found_error_message"
+msgstr ""
+
+# RESERVATION_FAILS_ERROR_MESSAGE
+msgid "Reservation_fails_error_message"
+msgstr ""
+
+# RESERVATION_SUBJECT_EMAIL_ADMIN
+msgid "Reservation_subject_email_admin"
+msgstr ""
+
+# RESERVATION_SUBJECT_EMAIL_CUSTOMER
+msgid "Reservation_subject_email_customer"
+msgstr ""
+
+# MENU_ITEM_ABOUT_US
+msgid "Menu_item_about_us"
+msgstr ""
+
+# MENU_ITEM_TOURS
+msgid "Menu_item_tours"
+msgstr ""
+
+# MENU_ITEM_SERVICES
+msgid "Menu_item_services"
+msgstr ""
+
+# MENU_ITEM_CONTACT
+msgid "Menu_item_contact"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_TOURS_DESC
+msgid "Custom_category_english_tours_description"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_PEOPLE_DESC
+msgid "Custom_category_english_people_description"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_COMPANIES_DESC
+msgid "Custom_category_english_companies_description"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_PRIVATES_DESC
+msgid "Custom_category_english_privates_description"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_TRANSFERS_DESC
+msgid "Custom_category_english_transfers_description"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PAQUETES_DESC
+msgid "Custom_category_spanish_paquetes_description"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PERSONAS_DESC
+msgid "Custom_category_spanish_personas_description"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_COMPANIAS_DESC
+msgid "Custom_category_spanish_companias_description"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PRIVADOS_DESC
+msgid "Custom_category_spanish_privados_description"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_TRASLADOS_DESC
+msgid "Custom_category_spanish_traslados_description"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_PASSEIOS_DESC
+msgid "Custom_category_portuguese_passeios_description"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_PESSOAS_DESC
+msgid "Custom_category_portuguese_pessoas_description"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_EMPRESAS_DESC
+msgid "Custom_category_portuguese_empresas_description"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_EXCLUSIVO_DESC
+msgid "Custom_category_portuguese_exclusivo_description"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_TRANSFERENCIAS_DESC
+msgid "Custom_category_portuguese_transferencias_description"
+msgstr ""

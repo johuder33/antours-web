@@ -1,0 +1,812 @@
+# TAXI_BOOKING_CHOOSE_CITY
+msgid "Seleccione Ciudad"
+msgstr ""
+
+# TAXI_BOOKING_CHOOSE_COMMUNE
+msgid "Seleccione Comuna"
+msgstr ""
+
+# TAXI_BOOKING_ORIGIN
+msgid "Origen"
+msgstr ""
+
+# TAXI_BOOKING_PICK_CITY
+msgid "Seleccione Ciudad"
+msgstr ""
+
+# TAXI_BOOKING_START_FROM
+msgid "Tu vieja empieza desde"
+msgstr ""
+
+# TAXI_BOOKING_TRIP_TWO_WAY
+msgid "Ida y vuelta"
+msgstr ""
+
+# TAXI_BOOKING_TRIP_ONE_WAY
+msgid "Solo ida"
+msgstr ""
+
+# TAXI_BOOKING_DESTINY
+msgid "Destino"
+msgstr ""
+
+# TAXI_BOOKING_SERVICE_LABEL
+msgid "Taxi_booking_service_label"
+msgstr ""
+
+# TAXI_BOOKING_SERVICE_NAME
+msgid "Servicio"
+msgstr ""
+
+# TAXI_BOOKING_SERVICE_DESC
+msgid "Servicio"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGERS
+msgid "Pasajeros"
+msgstr ""
+
+# TAXI_BOOKING_PRICE
+msgid "Precio"
+msgstr ""
+
+# TAXI_BOOKING_GO
+msgid "Ida"
+msgstr ""
+
+# TAXI_BOOKING_RETURN
+msgid "Retorno"
+msgstr ""
+
+# TAXI_BOOKING_DATE_START
+msgid "Fecha de ida"
+msgstr ""
+
+# TAXI_BOOKING_DATE_RETURN
+msgid "Fecha de retorno"
+msgstr ""
+
+# TAXI_BOOKING_TIME_GO
+msgid "Hora ida"
+msgstr ""
+
+# TAXI_BOOKING_TIME_RETURN
+msgid "Hora retorno"
+msgstr ""
+
+# TAXI_BOOKING_AIRPORT
+msgid "Aeropuerto"
+msgstr ""
+
+# TAXI_BOOKING_HOME
+msgid "Domicilio"
+msgstr ""
+
+# TAXI_BOOKING_STREET
+msgid "Calle"
+msgstr ""
+
+# TAXI_BOOKING_BUILDING
+msgid "Número"
+msgstr ""
+
+# TAXI_BOOKING_DEPTO
+msgid "Departamento"
+msgstr ""
+
+# TAXI_BOOKING_REFERENCE
+msgid "Referencia"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_PHONE
+msgid "Teléfono movil"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_EMAIL
+msgid "Email"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_FULLNAME
+msgid "Nombre"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_RUT
+msgid "RUT"
+msgstr ""
+
+# TAXI_BOOKING_PASSENGER_PASSPORT
+msgid "Pasaporte"
+msgstr ""
+
+# TAXI_BOOKING_NEXT_BUTTON
+msgid "Siguiente"
+msgstr ""
+
+# TAXI_BOOKING_PREV_BUTTON
+msgid "Atrás"
+msgstr ""
+
+# TAXI_BOOKING_SUBMIT_BUTTON
+msgid "Reservar"
+msgstr ""
+
+# COMMENT_BTN_LOADING
+msgid "Cargando…"
+msgstr ""
+
+# COMMENT_BTN_LOAD
+msgid "Más comentarios"
+msgstr ""
+
+# CONTACT_BTN_LOADING
+msgid "Enviando…"
+msgstr ""
+
+# CONTACT_BTN_LOAD
+msgid "Enviar Mensaje"
+msgstr ""
+
+# CONTACT_FORM_FIELD_NAME
+msgid "Nombre"
+msgstr ""
+
+# CONTACT_FORM_FIELD_LASTNAME
+msgid "Apellido"
+msgstr ""
+
+# CONTACT_FORM_FIELD_EMAIL
+msgid "Contact_form_field_email"
+msgstr ""
+
+# CONTACT_FORM_FIELD_SUBJECT
+msgid "Asunto"
+msgstr ""
+
+# CONTACT_FORM_FIELD_MESSAGE
+msgid "Mensaje"
+msgstr ""
+
+# CONTACT_BTN_SENT
+msgid "Contact_btn_sent"
+msgstr ""
+
+# CONTACT_BTN_NOT_SENT
+msgid "Contact_btn_not_sent"
+msgstr ""
+
+# CONTACT_FORM_FIELD_NAME_ERROR
+msgid "Contact_form_field_name_error"
+msgstr ""
+
+# CONTACT_FORM_FIELD_LASTNAME_ERROR
+msgid "Contact_form_field_lastname_error"
+msgstr ""
+
+# CONTACT_FORM_FIELD_EMAIL_ERROR
+msgid "Contact_form_field_email_error"
+msgstr ""
+
+# CONTACT_FORM_FIELD_SUBJECT_ERROR
+msgid "Contact_form_field_subject_error"
+msgstr ""
+
+# CONTACT_FORM_FIELD_MESSAGE_ERROR
+msgid "Contact_form_field_message_error"
+msgstr ""
+
+# QUICK_FIELD_FULLNAME_PLACEHOLDER
+msgid "Nombre completo"
+msgstr ""
+
+# QUICK_FIELD_FULLNAME_ERROR_MESSAGE
+msgid "Debe ingresar un nombre válido"
+msgstr ""
+
+# QUICK_FIELD_ID_NUMBER_PLACEHOLDER
+msgid "RUT / Cédula"
+msgstr ""
+
+# QUICK_FIELD_ID_NUMBER_ERROR_MESSAGE
+msgid "Debe ingresar una RUT / Cédula válida"
+msgstr ""
+
+# QUICK_FIELD_PHONE_PLACEHOLDER
+msgid "Teléfono"
+msgstr ""
+
+# QUICK_FIELD_PHONE_ERROR_MESSAGE
+msgid "Debe ingresar un teléfono válido"
+msgstr ""
+
+# QUICK_FIELD_EMAIL_PLACEHOLDER
+msgid "Email"
+msgstr ""
+
+# QUICK_FIELD_EMAIL_ERROR_MESSAGE
+msgid "Debe ingresar un email válido"
+msgstr ""
+
+# QUICK_FIELD_PASSENGERS_PLACEHOLDER
+msgid "Cantidad de pasajeros"
+msgstr ""
+
+# QUICK_FIELD_PASSENGERS_ERROR_MESSAGE
+msgid "Debe ingresar una cantidad válida"
+msgstr ""
+
+# QUICK_FIELD_HOTEL_ADDRESS_PLACEHOLDER
+msgid "Dirección del hotel"
+msgstr ""
+
+# QUICK_FIELD_HOTEL_ADDRESS_ERROR_MESSAGE
+msgid "Debe ingresar una dirección mas corta"
+msgstr ""
+
+# CPT_SERVICE_NAME_MENU_LABEL
+msgid "Servicios"
+msgstr ""
+
+# CPT_SERVICE_SINGULAR_MENU_LABEL
+msgid "Servicio"
+msgstr ""
+
+# CPT_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Agregar Servicio"
+msgstr ""
+
+# CPT_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Ningún Servicio encontrado"
+msgstr ""
+
+# CPT_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Todos los servicios"
+msgstr ""
+
+# CPT_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo servicio"
+msgstr ""
+
+# CPT_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Imagen principal del servicio"
+msgstr ""
+
+# CPT_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar imagen principal del servicio"
+msgstr ""
+
+# CPT_SERVICE_DESCRIPTION
+msgid "Sección de servicio"
+msgstr ""
+
+# CPT_PACKAGE_NAME_MENU_LABEL
+msgid "Paquetes"
+msgstr ""
+
+# CPT_PACKAGE_SINGULAR_MENU_LABEL
+msgid "Paquete"
+msgstr ""
+
+# CPT_PACKAGE_ADD_NEW_MENU_LABEL
+msgid "Agregar paquete"
+msgstr ""
+
+# CPT_PACKAGE_NOT_FOUND_MENU_LABEL
+msgid "Ningún paquete encontrado"
+msgstr ""
+
+# CPT_PACKAGE_ALL_ITEMS_MENU_LABEL
+msgid "Todos los paquetes"
+msgstr ""
+
+# CPT_PACKAGE_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo paquete"
+msgstr ""
+
+# CPT_PACKAGE_FEATURED_IMAGE_MENU_LABEL
+msgid "Imagen principal del paquete"
+msgstr ""
+
+# CPT_PACKAGE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar imagen del paquete"
+msgstr ""
+
+# CPT_PACKAGE_DESCRIPTION
+msgid "Sección de paquetes"
+msgstr ""
+
+# CPT_PACKAGE_GALLERY_TITLE
+msgid "Cpt_package_gallery_title"
+msgstr ""
+
+# CPT_ABOUT_NAME_MENU_LABEL
+msgid "Nosotros"
+msgstr ""
+
+# CPT_ABOUT_SINGULAR_MENU_LABEL
+msgid "Nosotros"
+msgstr ""
+
+# CPT_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Agregar reseña de nosotros"
+msgstr ""
+
+# CPT_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Ninguna reseña de nosotros encontrada"
+msgstr ""
+
+# CPT_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Todas las reseñas de nosotros"
+msgstr ""
+
+# CPT_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Agregar nueva reseña"
+msgstr ""
+
+# CPT_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Imagen principal de Nosotros"
+msgstr ""
+
+# CPT_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar imagen de Nosotros"
+msgstr ""
+
+# CPT_ABOUT_DESCRIPTION
+msgid "Sección del home"
+msgstr ""
+
+# CPT_HOME_NAME_MENU_LABEL
+msgid "Home"
+msgstr ""
+
+# CPT_HOME_SINGULAR_MENU_LABEL
+msgid "Home"
+msgstr ""
+
+# CPT_HOME_ADD_NEW_MENU_LABEL
+msgid "Agregar reseña en home"
+msgstr ""
+
+# CPT_HOME_NOT_FOUND_MENU_LABEL
+msgid "Ninguna reseña de home encontrada"
+msgstr ""
+
+# CPT_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Ver todas las reseñas de home"
+msgstr ""
+
+# CPT_HOME_NEW_ITEM_MENU_LABEL
+msgid "Agregar nueva reseña en home"
+msgstr ""
+
+# CPT_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Imagen principal de reseña en home"
+msgstr ""
+
+# CPT_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar imagen de reseña en home"
+msgstr ""
+
+# CPT_HOME_DESCRIPTION
+msgid "Sección home"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NAME_MENU_LABEL
+msgid "Servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_SINGULAR_MENU_LABEL
+msgid "Servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_ADD_NEW_MENU_LABEL
+msgid "Agregar servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NOT_FOUND_MENU_LABEL
+msgid "No se ha encontrado ninguna servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_ALL_ITEMS_MENU_LABEL
+msgid "Ver todos los servicios"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_FEATURED_IMAGE_MENU_LABEL
+msgid "Image principal del servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar imagen principal del servicio"
+msgstr ""
+
+# CPT_SERVICE_CONTENT_DESCRIPTION
+msgid "Sección de servicio para ingresar todos los servicios de la empresa"
+msgstr ""
+
+# CUSTOM_CATEGORY_NAME
+msgid "Categoria"
+msgstr ""
+
+# BANNER_SERVICE_NAME_MENU_LABEL
+msgid "Banner para Servicios"
+msgstr ""
+
+# BANNER_SERVICE_SINGULAR_MENU_LABEL
+msgid "Banner para Servicio"
+msgstr ""
+
+# BANNER_SERVICE_ADD_NEW_MENU_LABEL
+msgid "Agregar banner para servicio"
+msgstr ""
+
+# BANNER_SERVICE_NOT_FOUND_MENU_LABEL
+msgid "Ningún banner de servicio encontrado"
+msgstr ""
+
+# BANNER_SERVICE_ALL_ITEMS_MENU_LABEL
+msgid "Ver todos los banners de servicios"
+msgstr ""
+
+# BANNER_SERVICE_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo banner de servicio"
+msgstr ""
+
+# BANNER_SERVICE_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner del servicio"
+msgstr ""
+
+# BANNER_SERVICE_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar banner del servicio"
+msgstr ""
+
+# BANNER_SERVICE_DESCRIPTION
+msgid "Banners para servicios"
+msgstr ""
+
+# BANNER_ABOUT_NAME_MENU_LABEL
+msgid "Banners para Nosotros"
+msgstr ""
+
+# BANNER_ABOUT_SINGULAR_MENU_LABEL
+msgid "Banners para Nosotros"
+msgstr ""
+
+# BANNER_ABOUT_ADD_NEW_MENU_LABEL
+msgid "Agregar nuevo banner para nosotros"
+msgstr ""
+
+# BANNER_ABOUT_NOT_FOUND_MENU_LABEL
+msgid "Ningún banner de nosotros encontrado"
+msgstr ""
+
+# BANNER_ABOUT_ALL_ITEMS_MENU_LABEL
+msgid "Todos los banners de nosotros"
+msgstr ""
+
+# BANNER_ABOUT_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo banner para nosotros"
+msgstr ""
+
+# BANNER_ABOUT_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner para nosotros"
+msgstr ""
+
+# BANNER_ABOUT_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar banner para nosotros"
+msgstr ""
+
+# BANNER_ABOUT_DESCRIPTION
+msgid "Banners para nosotros"
+msgstr ""
+
+# BANNER_HOME_NAME_MENU_LABEL
+msgid "Banners para home"
+msgstr ""
+
+# BANNER_HOME_SINGULAR_MENU_LABEL
+msgid "Banners para home"
+msgstr ""
+
+# BANNER_HOME_ADD_NEW_MENU_LABEL
+msgid "Agregar banner para home"
+msgstr ""
+
+# BANNER_HOME_NOT_FOUND_MENU_LABEL
+msgid "Ningún banner para home encontrado"
+msgstr ""
+
+# BANNER_HOME_ALL_ITEMS_MENU_LABEL
+msgid "Ver todos los banners de home"
+msgstr ""
+
+# BANNER_HOME_NEW_ITEM_MENU_LABEL
+msgid "Agregar nuevo banner para home"
+msgstr ""
+
+# BANNER_HOME_FEATURED_IMAGE_MENU_LABEL
+msgid "Banner para home"
+msgstr ""
+
+# BANNER_HOME_SET_FEATURED_IMAGE_MENU_LABEL
+msgid "Configurar banner para home"
+msgstr ""
+
+# BANNER_HOME_DESCRIPTION
+msgid "Banners para home"
+msgstr ""
+
+# METABOX_TRIP_PRICE_TITLE
+msgid "Precio del paquete"
+msgstr ""
+
+# METABOX_TRIP_PRICE
+msgid "Precio"
+msgstr ""
+
+# METABOX_SCHEDULE_TRIP
+msgid "Duración del tour"
+msgstr ""
+
+# METABOX_TIME_DEPARTURE
+msgid "Hora de partida"
+msgstr ""
+
+# METABOX_TIME_RETURN
+msgid "Hora de regreso"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_TITLE
+msgid "Puntos de encuentro"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE
+msgid "Punto de encuentro"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_DESCRIPTION
+msgid "Lugar donde se reunirán las personas que irán al tour"
+msgstr ""
+
+# METABOX_DEPARTURE_PLACE_CLONE_BTN
+msgid "Agregar nuevo punto de encuentro"
+msgstr ""
+
+# METABOX_TRIP_MAP_TITLE
+msgid "Mapa del tour"
+msgstr ""
+
+# METABOX_TRIP_MAP_ROUTE_NAME
+msgid "Agregar dirección del tour"
+msgstr ""
+
+# METABOX_TRIP_MAP_ENABLED
+msgid "Metabox_trip_map_enabled"
+msgstr ""
+
+# METABOX_TRIP_MAP
+msgid "Mapa del paquete"
+msgstr ""
+
+# METABOX_TRIP_GALLERY_TITLE
+msgid "Momentos del tour"
+msgstr ""
+
+# METABOX_TRIP_GALLERY_VIDEO_TITLE
+msgid "Metabox_trip_gallery_video_title"
+msgstr ""
+
+# METABOX_TRIP_GALLERY_VIDEO_URL
+msgid "Metabox_trip_gallery_video_url"
+msgstr ""
+
+# METABOX_TRIP_GALLERY
+msgid "Galleria del tour"
+msgstr ""
+
+# CHECKER_IMAGE_SIZE_ERROR_MESSAGE
+msgid "Checker_image_size_error_message"
+msgstr ""
+
+# EMAIL_SENDING_ERROR_MESSAGE
+msgid "Ocurrió algún problema al intentar enviar el mensaje"
+msgstr ""
+
+# CAR_BOOKING_LIST_TITLE
+msgid "Reservas de Traslados"
+msgstr ""
+
+# CAR_BOOKING_LIST_MENU_NAME
+msgid "Traslados"
+msgstr ""
+
+# CLASS_RESERVATION_UNDEFINED_ERROR_MESSAGE
+msgid "Error, clase no definida"
+msgstr ""
+
+# RESERVATION_NONCE_UNDEFINED_ERROR_MESSAGE
+msgid "Error, solicitud inválida"
+msgstr ""
+
+# RESERVATION_NONCE_INCORRECT_ERROR_MESSAGE
+msgid "Error, solicitud inválida"
+msgstr ""
+
+# RESERVATION_SOME_FIELDS_MISSING_ERROR_MESSAGE
+msgid "Error, algunos faltan campos requeridos"
+msgstr ""
+
+# RESERVATION_CUSTOMER_ID_ERROR_MESSAGE
+msgid "Error, el RUT / Cédula debe ser números"
+msgstr ""
+
+# RESERVATION_PASSENGERS_ERROR_MESSAGE
+msgid "Error, debe ingresar la cantidad de pasajeros"
+msgstr ""
+
+# RESERVATION_CUSTOMER_EMAIL_ERROR_MESSAGE
+msgid "Debe ingresar un email válido"
+msgstr ""
+
+# RESERVATION_PACKAGE_ID_ERROR_MESSAGE
+msgid "Error, paquete no definido"
+msgstr ""
+
+# RESERVATION_PACKAGE_NOT_FOUND_ERROR_MESSAGE
+msgid "Error, paquete no definido"
+msgstr ""
+
+# RESERVATION_FAILS_ERROR_MESSAGE
+msgid "Ocurrió un error al intentar hacer la reserva"
+msgstr ""
+
+# RESERVATION_SUBJECT_EMAIL_ADMIN
+msgid "Nueva reservación"
+msgstr ""
+
+# RESERVATION_SUBJECT_EMAIL_CUSTOMER
+msgid "Antours - Reservación"
+msgstr ""
+
+# RESERVATION_PACKAGE_TITLE
+msgid "Reservation_package_title"
+msgstr ""
+
+# RESERVATION_PACKAGE_ADDRESS
+msgid "Reservation_package_address"
+msgstr ""
+
+# RESERVATION_PACKAGE_DOC_TYPE
+msgid "Reservation_package_doc_type"
+msgstr ""
+
+# RESERVATION_PACKAGE_ID_NUMBER
+msgid "Reservation_package_id_number"
+msgstr ""
+
+# RESERVATION_PACKAGE_PRICE
+msgid "Reservation_package_price"
+msgstr ""
+
+# RESERVATION_PACKAGE_CUSTOMER_MESSAGE
+msgid "Reservation_package_customer_message"
+msgstr ""
+
+# RESERVATION_CUSTOMER_FULLNAME
+msgid "Reservation_customer_fullname"
+msgstr ""
+
+# RESERVATION_SLOGAN_MAIL
+msgid "Reservation_slogan_mail"
+msgstr ""
+
+# RESERVATION_ID
+msgid "Reservation_id"
+msgstr ""
+
+# RESERVATION_PACKAGE_SUCCESS_TITLE
+msgid "Reservation_package_success_title"
+msgstr ""
+
+# RESERVATION_PACKAGE_ERROR_TITLE
+msgid "Reservation_package_error_title"
+msgstr ""
+
+# RESERVATION_PACKAGE_SUCCESS_MESSAGE
+msgid "Reservation_package_success_message"
+msgstr ""
+
+# MENU_ITEM_ABOUT_US
+msgid "Nosotros"
+msgstr ""
+
+# MENU_ITEM_TOURS
+msgid "Paquetes"
+msgstr ""
+
+# MENU_ITEM_SERVICES
+msgid "Servicios"
+msgstr ""
+
+# MENU_ITEM_CONTACT
+msgid "Contacto"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_TOURS_DESC
+msgid "Tours"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_PEOPLE_DESC
+msgid "People"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_COMPANIES_DESC
+msgid "Companies"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_PRIVATES_DESC
+msgid "Privates"
+msgstr ""
+
+# EN_CUSTOM_CATEGORY_TRANSFERS_DESC
+msgid "Translations"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PAQUETES_DESC
+msgid "Paquetes"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PERSONAS_DESC
+msgid "Personas"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_COMPANIAS_DESC
+msgid "Empresas"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_PRIVADOS_DESC
+msgid "Privados"
+msgstr ""
+
+# ES_CUSTOM_CATEGORY_TRASLADOS_DESC
+msgid "Traslados"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_PASSEIOS_DESC
+msgid "Passeios"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_PESSOAS_DESC
+msgid "Pessoas"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_EMPRESAS_DESC
+msgid "Empresas"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_EXCLUSIVO_DESC
+msgid "Exclusivo"
+msgstr ""
+
+# PT_CUSTOM_CATEGORY_TRANSFERENCIAS_DESC
+msgid "Transferências"
+msgstr ""
+
+# ADMIN_MAIL_SUBJECT_CONTACT
+msgid "Admin_mail_subject_contact"
+msgstr ""
+
+# CUSTOMER_MAIL_SUBJECT_CONTACT
+msgid "Customer_mail_subject_contact"
+msgstr ""
+
+# CUSTOMER_MAIL_MESSAGE_CONTACT
+msgid "Customer_mail_message_contact"
+msgstr ""
+
+# SLOGAN_MAIL_CONTACT
+msgid "Slogan"
+msgstr ""
+

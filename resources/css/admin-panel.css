@@ -1,0 +1,11 @@
+.button.asBlock, .antours_option_field {
+    display: block;
+}
+
+.antours_option_field {
+    margin-bottom: 10px;
+}
+
+.w-50 {
+    width: 50%;
+}
