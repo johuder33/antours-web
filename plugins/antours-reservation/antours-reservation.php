@@ -1,59 +1,71 @@
 <?php
+/*
+Plugin Name: Antours Reservation Packages
+Plugin URI: https://github.com/johuder33/antours-web
+Description: Plugin for handle reservation 
+Version: 1.0
+Author: Juorder Gonzalez
+Author URI: https://github.com/johuder33
+Text Domain: antours-reservation
+License: MIT
+*/
+
+$classes = [
+    'Configuration.php',
+    'Reservation.php',
+    'Reservation_TableList.php',
+    'Antours_Reservation.php'
+];
+
+foreach($classes as $className) {
+    require_once(__DIR__ . '/classes/' . $className);
+}
+
 /**
- * The antours plugin for admin pages
- *
- * This file is read by WordPress to generate the plugin information in the
- * plugin admin area. This file also defines a function that starts the plugin.
- *
- * @link              http://code.tutsplus.com/tutorials/creating-custom-admin-pages-in-wordpress-1
- * @since             1.0.0
- * @package           Antours_admin
- *
- * @wordpress-plugin
- * Plugin Name:       Antours Reservation
- * Plugin URI:        https://github.com/johuder33/antours.git
- * Description:       This plugin will handle the reservation for packaging.
- * Version:           1.0.0
- * Author:            Juorder Gonzalez
- * Author URI:        https://github.com/johuder33/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * $package_reservation_version
+ * defines version for the plugin
  */
+global $package_reservation_version;
+$package_reservation_version = '1.0';
 
- class ReservationBookingSchemas {
-    private $db = null;
-    private $prefix = "antours_";
-
-    function __construct($DBManager) {
-        $this->db = $DBManager;
+class Installer {
+    static public function setup() {
+        global $package_reservation_version;
+        // load lib for creating tables into the DB
+        require_once(ABSPATH . 'wp-admin/includes/upgrade.php' );
+        $sql = self::sql();
+        dbDelta($sql);
+        // let's save our current plugin version
+        add_option( 'package_reservation_version', $package_reservation_version );
     }
 
-    public function install() {
-        $db = $this->db;
-        $prefix = $db->prefix;
-        $charset_collate = $db->collate;
+    static public function update() {
+        global $package_reservation_version;
 
-        //import dbDelta
-        require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+        // if the current version is not the same defined at the top, so let's update it.
+        if (get_site_option('package_reservation_version') != $package_reservation_version) {
+            self::setup();
+        }
+    }
 
-        // reservation schema
-        require_once(__DIR__ . '/schema/reservation_schema.php');
-        $reservationSQL = create_reservation_schema($prefix, $this->prefix, $charset_collate, 'reservation');
-        $reservationSchema = $reservationSQL['schema'];
+    static public function sql() {
+        $sql = Configuration::schema();
 
-        // create region schema
-        dbDelta($reservationSchema);
+        return $sql;
     }
 }
 
-global $wpdb, $instance;
+// this hook will execute when plugin is installed
+register_activation_hook(__FILE__, array('Installer', 'setup'));
 
-$ReservationBooking = new ReservationBookingSchemas($wpdb);
-require_once(__DIR__ . '/class/Reservation_Booking.php');
-require_once(__DIR__ . '/helpers/MenuAdmin.inc.php');
-require_once(__DIR__ . '/helpers/RenderAdminView.inc.php');
-require_once(__DIR__ . '/class/Reservation_List_Table.php');
+// this action will execute when plugin is updated
+add_action( 'plugins_loaded', array('Installer', 'update') );
 
-add_action("admin_menu", "add_menu_reservation");
+// this another hooked action will initialize the Reservation List Page into wordpress admin dashboard
+// if you have any doubt please, see at https://codex.wordpress.org/Plugin_API/Action_Reference/plugins_loaded
+add_action( 'plugins_loaded', function () {
+	Antours_Reservation::get_instance();
+});
 
-register_activation_hook(__FILE__, array($ReservationBooking, 'install'));
+// let's add our languages file to translate our plugin
+add_action( 'plugins_loaded', ['Configuration', 'load_translations']);

@@ -1,0 +1,3 @@
+# ANTOURS_RESERVATION_TITLE_MENU
+msgid "reservation_title_menu"
+msgstr ""
